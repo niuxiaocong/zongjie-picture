@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-04T17:52:26.743Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="dC0zc8zgL_RFuZtWhIo4" version="21.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-04T17:53:26.201Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="eSIKE9_y77QRfxRxh8ac" version="21.1.4" type="github">
   <diagram name="第 1 页" id="ieGIC2GUTSF_dJ4SK5-p">
     <mxGraphModel dx="1050" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -60,6 +60,9 @@
         </mxCell>
         <mxCell id="OgydlIfcIWUuVXgb3Rpq-21" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
           <mxGeometry x="615" y="530" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OgydlIfcIWUuVXgb3Rpq-29" value="预授权主要是为了做免密支付" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry y="240" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
