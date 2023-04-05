@@ -1,9 +1,48 @@
-<mxfile host="app.diagrams.net" modified="2023-04-05T01:45:09.431Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="21.1.4" etag="4i5r-jGru40v1yDGZXUv" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-05T01:51:55.497Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="02g1fJGl-N1k2farr6B1" version="21.1.4" type="github">
   <diagram name="第 1 页" id="WS4CBs3B_TEAE8ZrlKIp">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="t33t04UZr14gCnz9w-WS-2" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;智能货柜系统管理&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="50" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t33t04UZr14gCnz9w-WS-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="t33t04UZr14gCnz9w-WS-4" target="t33t04UZr14gCnz9w-WS-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t33t04UZr14gCnz9w-WS-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="t33t04UZr14gCnz9w-WS-4" target="t33t04UZr14gCnz9w-WS-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t33t04UZr14gCnz9w-WS-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="t33t04UZr14gCnz9w-WS-4" target="t33t04UZr14gCnz9w-WS-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t33t04UZr14gCnz9w-WS-4" value="后台管理系统服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t33t04UZr14gCnz9w-WS-5" value="校准（去皮）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t33t04UZr14gCnz9w-WS-6" value="补货" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t33t04UZr14gCnz9w-WS-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="t33t04UZr14gCnz9w-WS-7" target="t33t04UZr14gCnz9w-WS-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t33t04UZr14gCnz9w-WS-7" value="初始化" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t33t04UZr14gCnz9w-WS-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="t33t04UZr14gCnz9w-WS-11" target="t33t04UZr14gCnz9w-WS-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t33t04UZr14gCnz9w-WS-11" value="建立仓门关系，货到数量。" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t33t04UZr14gCnz9w-WS-12" value="通知货柜修改价签" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t33t04UZr14gCnz9w-WS-15" value="补货的流程一定是在购买流程以后。" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
