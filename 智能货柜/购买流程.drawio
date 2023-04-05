@@ -1,9 +1,120 @@
-<mxfile host="app.diagrams.net" modified="2023-04-05T02:42:54.251Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="21.1.4" etag="cit_rXdkHMCjVgG-uD6X" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-05T03:44:08.035Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="L6tGih_dJ0paagZwC1_n" version="21.1.4" type="github">
   <diagram name="第 1 页" id="RkDC4rOG-JaYH36t-Z6l">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="wvqYO3dV8kKgbjnCDc3z-1" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;APP端&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="50" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wvqYO3dV8kKgbjnCDc3z-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wvqYO3dV8kKgbjnCDc3z-2" target="wvqYO3dV8kKgbjnCDc3z-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wvqYO3dV8kKgbjnCDc3z-2" value="用户扫码开门" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wvqYO3dV8kKgbjnCDc3z-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wvqYO3dV8kKgbjnCDc3z-3" target="wvqYO3dV8kKgbjnCDc3z-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wvqYO3dV8kKgbjnCDc3z-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.033;entryY=0.398;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wvqYO3dV8kKgbjnCDc3z-3" target="wvqYO3dV8kKgbjnCDc3z-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wvqYO3dV8kKgbjnCDc3z-3" value="参数校验" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wvqYO3dV8kKgbjnCDc3z-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wvqYO3dV8kKgbjnCDc3z-5" target="wvqYO3dV8kKgbjnCDc3z-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wvqYO3dV8kKgbjnCDc3z-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.013;entryY=0.419;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wvqYO3dV8kKgbjnCDc3z-5" target="wvqYO3dV8kKgbjnCDc3z-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wvqYO3dV8kKgbjnCDc3z-5" value="添加分布式锁" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wvqYO3dV8kKgbjnCDc3z-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wvqYO3dV8kKgbjnCDc3z-6" target="wvqYO3dV8kKgbjnCDc3z-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wvqYO3dV8kKgbjnCDc3z-6" value="生成订单号" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="507" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wvqYO3dV8kKgbjnCDc3z-10" value="校验设备是否正常、仓门是否正常、货道是否有配置商品、用户的上一单是否结账" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="230" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="wvqYO3dV8kKgbjnCDc3z-13" value="同一时间只能有一个用户进行购买，一个用户开启仓门以后，不允许其他的用户再次进行操作，例如补货、修改商品价签。" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="352" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="wvqYO3dV8kKgbjnCDc3z-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wvqYO3dV8kKgbjnCDc3z-16" target="wvqYO3dV8kKgbjnCDc3z-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wvqYO3dV8kKgbjnCDc3z-16" value="保存订单，&lt;font color=&quot;#ff9999&quot;&gt;订单的状态为未授权、仓门的状态为未打开、支付状态未未支付&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wvqYO3dV8kKgbjnCDc3z-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wvqYO3dV8kKgbjnCDc3z-18" target="wvqYO3dV8kKgbjnCDc3z-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wvqYO3dV8kKgbjnCDc3z-18" value="微信/支付宝创建订单" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wvqYO3dV8kKgbjnCDc3z-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wvqYO3dV8kKgbjnCDc3z-19" target="wvqYO3dV8kKgbjnCDc3z-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wvqYO3dV8kKgbjnCDc3z-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.01;entryY=0.586;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wvqYO3dV8kKgbjnCDc3z-19" target="wvqYO3dV8kKgbjnCDc3z-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wvqYO3dV8kKgbjnCDc3z-19" value="更改订单的状态未授权中" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wvqYO3dV8kKgbjnCDc3z-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wvqYO3dV8kKgbjnCDc3z-20" target="wvqYO3dV8kKgbjnCDc3z-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wvqYO3dV8kKgbjnCDc3z-20" value="返回前端拉取授权页面输入密码或者人脸识别" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wvqYO3dV8kKgbjnCDc3z-24" value="假设授权超时时间是1分钟，如果在1分钟之内没有授权，那么我就要取消订单，释放掉分布式锁。" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="352" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="wvqYO3dV8kKgbjnCDc3z-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wvqYO3dV8kKgbjnCDc3z-26" target="wvqYO3dV8kKgbjnCDc3z-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wvqYO3dV8kKgbjnCDc3z-26" value="回调授权成功，更改订单状态为授权成功" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wvqYO3dV8kKgbjnCDc3z-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wvqYO3dV8kKgbjnCDc3z-27" target="wvqYO3dV8kKgbjnCDc3z-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wvqYO3dV8kKgbjnCDc3z-27" value="发送消息通知货柜服务进行开启仓门" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wvqYO3dV8kKgbjnCDc3z-30" value="定时任务仓门状态如果一直为异常，那么就取消订单，订单的状态就设置为异常" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wvqYO3dV8kKgbjnCDc3z-32" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;设备服务端进行缓存&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="840" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wvqYO3dV8kKgbjnCDc3z-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wvqYO3dV8kKgbjnCDc3z-33" target="wvqYO3dV8kKgbjnCDc3z-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wvqYO3dV8kKgbjnCDc3z-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wvqYO3dV8kKgbjnCDc3z-33" target="wvqYO3dV8kKgbjnCDc3z-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wvqYO3dV8kKgbjnCDc3z-33" value="建立仓门订单缓存" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wvqYO3dV8kKgbjnCDc3z-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wvqYO3dV8kKgbjnCDc3z-34" target="wvqYO3dV8kKgbjnCDc3z-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wvqYO3dV8kKgbjnCDc3z-34" value="查询设备连接在哪台通信服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1020" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wvqYO3dV8kKgbjnCDc3z-35" value="根据不同的设备类型选择不同的执行器发送字节码或者mqtt消息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wvqYO3dV8kKgbjnCDc3z-36" value="订单号，当前仓门各个货道的重量，设备Id，仓门Id，userId" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wvqYO3dV8kKgbjnCDc3z-40" value="假如说有2000台货柜机器，如果都连接在同一台通信服务上，那么这一台通信服务的有压力会非常大所以要分摊在不同的通信服务上" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="885" width="220" height="130" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
