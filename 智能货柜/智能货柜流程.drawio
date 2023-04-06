@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-06T03:51:07.748Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="XcBsR_aqkQqWJ6KzPjG8" version="21.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-06T04:16:42.081Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="dIMnoK7XR18UFDLjWEc5" version="21.1.4" type="github">
   <diagram name="第 1 页" id="ieGIC2GUTSF_dJ4SK5-p">
     <mxGraphModel dx="1877" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -116,7 +116,7 @@
         <mxCell id="OgydlIfcIWUuVXgb3Rpq-46" value="通道服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="680" y="1084" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OgydlIfcIWUuVXgb3Rpq-47" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;智能货柜功能&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="OgydlIfcIWUuVXgb3Rpq-47" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;智能货柜功能点&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="10" y="1420" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OgydlIfcIWUuVXgb3Rpq-53" value="购买商品（购买）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -148,26 +148,11 @@
         <mxCell id="OgydlIfcIWUuVXgb3Rpq-61" value="设备服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="194" y="1084" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OgydlIfcIWUuVXgb3Rpq-62" value="灯、加热" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="510" y="1490" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="OgydlIfcIWUuVXgb3Rpq-63" value="设备下线" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="670" y="1490" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="OgydlIfcIWUuVXgb3Rpq-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="OgydlIfcIWUuVXgb3Rpq-67" target="OgydlIfcIWUuVXgb3Rpq-86">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OgydlIfcIWUuVXgb3Rpq-67" value="后台管理系统服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="1174" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="OgydlIfcIWUuVXgb3Rpq-69" value="购买商品（购买）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="1490" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="OgydlIfcIWUuVXgb3Rpq-70" value="商品补充（补货）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="190" y="1490" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="OgydlIfcIWUuVXgb3Rpq-71" value="校准（因为需要根据重量去进行结算）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="1490" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OgydlIfcIWUuVXgb3Rpq-73" value="负责和三方平台进行对接，比如微信，支付宝，短信验证。" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="1">
           <mxGeometry x="690" y="980" width="120" height="81" as="geometry" />
@@ -186,6 +171,58 @@
         </mxCell>
         <mxCell id="OgydlIfcIWUuVXgb3Rpq-86" value="提供后台需要的一些接口" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="1">
           <mxGeometry x="360" y="1270" width="120" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="OgydlIfcIWUuVXgb3Rpq-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.417;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="OgydlIfcIWUuVXgb3Rpq-94" target="OgydlIfcIWUuVXgb3Rpq-116">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OgydlIfcIWUuVXgb3Rpq-94" value="设备服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1500" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OgydlIfcIWUuVXgb3Rpq-116" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#ff3333&quot;&gt;1、设备上下线&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2、设备温度、灯光控制&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3、设备开关门设置&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;4、重量记录&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;5、心跳记录，心跳发送&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;6、设备校准&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;7、设备状态更新&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;8、补货重量计算&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;9、库存计算&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1440" width="150" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="OgydlIfcIWUuVXgb3Rpq-119" value="App服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1750" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OgydlIfcIWUuVXgb3Rpq-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.417;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="OgydlIfcIWUuVXgb3Rpq-121">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="1750" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="130" y="1763" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OgydlIfcIWUuVXgb3Rpq-121" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1、App授权&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#ff3333&quot;&gt;2、扫码、购买商品&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3、下单支付&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;4、订单查询&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;5、账户查询&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;6、账户充值&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1700" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="OgydlIfcIWUuVXgb3Rpq-122" value="账户服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="1620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OgydlIfcIWUuVXgb3Rpq-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.417;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="OgydlIfcIWUuVXgb3Rpq-124">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="1650" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OgydlIfcIWUuVXgb3Rpq-124" value="&lt;div style=&quot;text-align: left;&quot;&gt;1、账户创建&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;2、订单扣款计算（优惠前/优惠后）&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="1610" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="OgydlIfcIWUuVXgb3Rpq-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.004;entryY=0.424;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="OgydlIfcIWUuVXgb3Rpq-125" target="OgydlIfcIWUuVXgb3Rpq-126">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OgydlIfcIWUuVXgb3Rpq-125" value="通道服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="1840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OgydlIfcIWUuVXgb3Rpq-126" value="&lt;div style=&quot;text-align: left;&quot;&gt;1、调用微信支付&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;2、调用支付宝支付&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;3、短信验证&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="1830" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="OgydlIfcIWUuVXgb3Rpq-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OgydlIfcIWUuVXgb3Rpq-132" target="OgydlIfcIWUuVXgb3Rpq-133">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OgydlIfcIWUuVXgb3Rpq-132" value="后台管理系统服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1977.5" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OgydlIfcIWUuVXgb3Rpq-133" value="&lt;div style=&quot;text-align: left;&quot;&gt;1、优惠券配置&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;2、商品价格、重量配置&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;3、信息查询（优惠卷、商品）&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1950" width="150" height="95" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
