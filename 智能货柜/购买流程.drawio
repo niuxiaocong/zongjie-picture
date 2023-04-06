@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-06T04:19:46.125Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="zL_GWq5bofyiq-I0d_1p" version="21.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-06T05:57:10.010Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="5ANDVq-ztKbD566lJ_pa" version="21.1.4" type="github">
   <diagram name="第 1 页" id="RkDC4rOG-JaYH36t-Z6l">
-    <mxGraphModel dx="1500" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1050" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -114,6 +114,78 @@
         </mxCell>
         <mxCell id="wvqYO3dV8kKgbjnCDc3z-40" value="假如说有2000台货柜机器，如果都连接在同一台通信服务上，那么这一台通信服务的有压力会非常大所以要分摊在不同的通信服务上" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="885" width="220" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="wvqYO3dV8kKgbjnCDc3z-42" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;账户服务，关门后进行结算的过程&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="2160" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wvqYO3dV8kKgbjnCDc3z-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wvqYO3dV8kKgbjnCDc3z-43" target="wvqYO3dV8kKgbjnCDc3z-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wvqYO3dV8kKgbjnCDc3z-43" value="结算订单" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="2250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wvqYO3dV8kKgbjnCDc3z-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wvqYO3dV8kKgbjnCDc3z-44" target="wvqYO3dV8kKgbjnCDc3z-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wvqYO3dV8kKgbjnCDc3z-44" value="修改订单的状态为支付中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="2370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wvqYO3dV8kKgbjnCDc3z-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wvqYO3dV8kKgbjnCDc3z-45" target="wvqYO3dV8kKgbjnCDc3z-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wvqYO3dV8kKgbjnCDc3z-45" value="处理优惠券" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="2490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wvqYO3dV8kKgbjnCDc3z-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wvqYO3dV8kKgbjnCDc3z-46" target="wvqYO3dV8kKgbjnCDc3z-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wvqYO3dV8kKgbjnCDc3z-46" value="优惠卷分成现金券和团购券（团购券是指定商品类似商品抵扣）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="2490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wvqYO3dV8kKgbjnCDc3z-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wvqYO3dV8kKgbjnCDc3z-50" target="wvqYO3dV8kKgbjnCDc3z-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wvqYO3dV8kKgbjnCDc3z-50" value="现金券和团购券都可以指定商品，如果配置指定商品，那么就只能在指定商品下使用优惠券。现金券一次就只能使用一张，团购券可以使用多张，按照快过期的优先使用，首先使用团购券，在使用现金券" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="2490" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wvqYO3dV8kKgbjnCDc3z-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wvqYO3dV8kKgbjnCDc3z-52" target="wvqYO3dV8kKgbjnCDc3z-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wvqYO3dV8kKgbjnCDc3z-52" value="更改优惠券的使用状态，更改优惠券的订单详情" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="605" y="2610" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wvqYO3dV8kKgbjnCDc3z-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wvqYO3dV8kKgbjnCDc3z-54" target="wvqYO3dV8kKgbjnCDc3z-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wvqYO3dV8kKgbjnCDc3z-54" value="处理账户余额" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="2610" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wvqYO3dV8kKgbjnCDc3z-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wvqYO3dV8kKgbjnCDc3z-56" target="wvqYO3dV8kKgbjnCDc3z-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wvqYO3dV8kKgbjnCDc3z-56" value="查看账户余额是否充足" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="2610" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wvqYO3dV8kKgbjnCDc3z-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wvqYO3dV8kKgbjnCDc3z-58" target="wvqYO3dV8kKgbjnCDc3z-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wvqYO3dV8kKgbjnCDc3z-58" value="余额充足则进行余额的扣减" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="2730" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wvqYO3dV8kKgbjnCDc3z-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wvqYO3dV8kKgbjnCDc3z-60" target="wvqYO3dV8kKgbjnCDc3z-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wvqYO3dV8kKgbjnCDc3z-60" value="构建微信支付宝参数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="2730" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wvqYO3dV8kKgbjnCDc3z-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wvqYO3dV8kKgbjnCDc3z-61" target="wvqYO3dV8kKgbjnCDc3z-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wvqYO3dV8kKgbjnCDc3z-61" value="判断小程序的类型是微信还是支付宝以哪种方式来结单" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="2730" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wvqYO3dV8kKgbjnCDc3z-62" value="微信支付宝回调&lt;br&gt;然后订单的状态进行更改" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="2840" width="140" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
