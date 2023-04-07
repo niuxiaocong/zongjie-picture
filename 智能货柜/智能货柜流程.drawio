@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-06T18:14:56.762Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="NDSGJYnCfqRjyVZaGAjs" version="21.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-07T04:43:19.723Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="yCeJPQp9oHX9oay9PVzR" version="21.1.4" type="github">
   <diagram name="第 1 页" id="ieGIC2GUTSF_dJ4SK5-p">
     <mxGraphModel dx="1877" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -178,7 +178,7 @@
         <mxCell id="OgydlIfcIWUuVXgb3Rpq-94" value="设备服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="1500" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="OgydlIfcIWUuVXgb3Rpq-116" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#ff3333&quot;&gt;1、设备上下线&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2、设备温度、灯光控制&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3、设备开关门设置&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;4、重量记录&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;5、心跳记录，心跳发送&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;6、设备校准&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;7、设备状态更新&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;8、补货重量计算&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;9、库存计算&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+        <mxCell id="OgydlIfcIWUuVXgb3Rpq-116" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#ff3333&quot;&gt;1、设备上下线&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2、设备温度、灯光控制&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3、设备开关门设置&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;4、重量记录&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;5、心跳记录，心跳发送&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;6、&lt;font color=&quot;#ff3333&quot;&gt;设备校准&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;7、设备状态更新&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;8、补货重量计算&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;9、库存计算&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="1440" width="150" height="190" as="geometry" />
         </mxCell>
         <mxCell id="OgydlIfcIWUuVXgb3Rpq-119" value="App服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -204,7 +204,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="OgydlIfcIWUuVXgb3Rpq-124" value="&lt;div style=&quot;text-align: left;&quot;&gt;1、账户创建&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;2、订单扣款计算（优惠前/优惠后）&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;3、账户余额查询&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
-          <mxGeometry x="630" y="1610" width="150" height="90" as="geometry" />
+          <mxGeometry x="630" y="1600" width="150" height="100" as="geometry" />
         </mxCell>
         <mxCell id="OgydlIfcIWUuVXgb3Rpq-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.004;entryY=0.424;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="OgydlIfcIWUuVXgb3Rpq-125" target="OgydlIfcIWUuVXgb3Rpq-126">
           <mxGeometry relative="1" as="geometry" />
