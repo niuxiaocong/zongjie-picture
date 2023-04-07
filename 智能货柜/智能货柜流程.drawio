@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-07T04:43:41.624Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="_eNfHWleUogDNYa1TO9V" version="21.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-07T15:46:08.609Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="eHbqKVFMxYhQT2WXisO_" version="21.1.4" type="github">
   <diagram name="第 1 页" id="ieGIC2GUTSF_dJ4SK5-p">
     <mxGraphModel dx="1877" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -22,7 +22,7 @@
         <mxCell id="OgydlIfcIWUuVXgb3Rpq-10" value="扫码" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="90" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="OgydlIfcIWUuVXgb3Rpq-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OgydlIfcIWUuVXgb3Rpq-11" target="OgydlIfcIWUuVXgb3Rpq-15">
+        <mxCell id="OgydlIfcIWUuVXgb3Rpq-138" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OgydlIfcIWUuVXgb3Rpq-11" target="OgydlIfcIWUuVXgb3Rpq-137">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OgydlIfcIWUuVXgb3Rpq-11" value="预授权" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -32,34 +32,34 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OgydlIfcIWUuVXgb3Rpq-15" value="通知开门" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="430" y="180" width="100" height="50" as="geometry" />
+          <mxGeometry x="696" y="180" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="OgydlIfcIWUuVXgb3Rpq-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OgydlIfcIWUuVXgb3Rpq-16" target="OgydlIfcIWUuVXgb3Rpq-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OgydlIfcIWUuVXgb3Rpq-16" value="取商品" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="580" y="180" width="100" height="50" as="geometry" />
+          <mxGeometry x="846" y="180" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="OgydlIfcIWUuVXgb3Rpq-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OgydlIfcIWUuVXgb3Rpq-17" target="OgydlIfcIWUuVXgb3Rpq-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OgydlIfcIWUuVXgb3Rpq-17" value="关门" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="580" y="270" width="100" height="50" as="geometry" />
+          <mxGeometry x="846" y="270" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="OgydlIfcIWUuVXgb3Rpq-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OgydlIfcIWUuVXgb3Rpq-18" target="OgydlIfcIWUuVXgb3Rpq-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OgydlIfcIWUuVXgb3Rpq-18" value="后台结算" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="580" y="360" width="100" height="50" as="geometry" />
+          <mxGeometry x="846" y="360" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="OgydlIfcIWUuVXgb3Rpq-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OgydlIfcIWUuVXgb3Rpq-19" target="OgydlIfcIWUuVXgb3Rpq-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OgydlIfcIWUuVXgb3Rpq-19" value="用户支付" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="580" y="450" width="100" height="50" as="geometry" />
+          <mxGeometry x="846" y="450" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="OgydlIfcIWUuVXgb3Rpq-21" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="615" y="530" width="30" height="30" as="geometry" />
+          <mxGeometry x="881" y="530" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OgydlIfcIWUuVXgb3Rpq-29" value="预授权主要是为了做免密支付" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
           <mxGeometry y="240" width="120" height="80" as="geometry" />
@@ -226,6 +226,18 @@
         </mxCell>
         <mxCell id="OgydlIfcIWUuVXgb3Rpq-135" value="1、换品&lt;br&gt;2、对账" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="1450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OgydlIfcIWUuVXgb3Rpq-140" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OgydlIfcIWUuVXgb3Rpq-137" target="OgydlIfcIWUuVXgb3Rpq-139">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OgydlIfcIWUuVXgb3Rpq-137" value="拉起授权页面" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="180" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OgydlIfcIWUuVXgb3Rpq-141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OgydlIfcIWUuVXgb3Rpq-139" target="OgydlIfcIWUuVXgb3Rpq-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OgydlIfcIWUuVXgb3Rpq-139" value="用户确认授权" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="180" width="100" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
