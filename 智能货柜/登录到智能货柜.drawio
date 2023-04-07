@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-06T03:19:49.166Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="mPWBOTakizjZACLdLdQz" version="21.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-07T04:42:53.203Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="PKUDScTW-spcmbtLD9lC" version="21.1.4" type="github">
   <diagram name="第 1 页" id="qRCRZD5KXnWknmMBjooK">
     <mxGraphModel dx="2062" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -119,7 +119,7 @@
           <mxGeometry x="390" y="910" width="170" height="110" as="geometry" />
         </mxCell>
         <mxCell id="fyqihrU-c2QZ_koJViVM-40" value="设备唯一编号&lt;br&gt;HeartLastTime" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="1">
-          <mxGeometry x="1300" y="630" width="120" height="80" as="geometry" />
+          <mxGeometry x="1320" y="630" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="fyqihrU-c2QZ_koJViVM-42" value="当前时间 - 最后一次发送心跳的时间 &amp;gt; 1 那么就让它过期" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="1">
           <mxGeometry x="-150" y="500" width="120" height="80" as="geometry" />
@@ -163,19 +163,37 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fyqihrU-c2QZ_koJViVM-55" value="发送重量信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="650" y="550" width="120" height="60" as="geometry" />
+          <mxGeometry x="660" y="585" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fyqihrU-c2QZ_koJViVM-57" value="90秒发送一次" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="650" y="660" width="120" height="60" as="geometry" />
+          <mxGeometry x="660" y="695" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fyqihrU-c2QZ_koJViVM-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fyqihrU-c2QZ_koJViVM-59" target="fyqihrU-c2QZ_koJViVM-61">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fyqihrU-c2QZ_koJViVM-59" value="每300毫秒发送一次" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="870" y="550" width="120" height="60" as="geometry" />
+          <mxGeometry x="880" y="585" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fyqihrU-c2QZ_koJViVM-61" value="关门后8秒，也是每300毫秒发送一次" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="870" y="660" width="120" height="60" as="geometry" />
+          <mxGeometry x="880" y="695" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fyqihrU-c2QZ_koJViVM-65" value="存一张Hash表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fyqihrU-c2QZ_koJViVM-66" value="Hash表的左右就是记录货柜连接到那台通信服务上。&lt;br&gt;例如：通信服务1：1，2，3，4（设备号）&lt;br&gt;通信服务2：5，6，7，8" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="420" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fyqihrU-c2QZ_koJViVM-67" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#FF0080;dashed=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="630" y="550" width="390" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="fyqihrU-c2QZ_koJViVM-69" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="840" y="840" as="sourcePoint" />
+            <mxPoint x="800" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fyqihrU-c2QZ_koJViVM-70" value="设备向我们的设备服务发送重量" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="810" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
