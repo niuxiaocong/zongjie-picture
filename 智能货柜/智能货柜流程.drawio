@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-07T04:43:19.723Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="yCeJPQp9oHX9oay9PVzR" version="21.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-07T04:43:41.624Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="_eNfHWleUogDNYa1TO9V" version="21.1.4" type="github">
   <diagram name="第 1 页" id="ieGIC2GUTSF_dJ4SK5-p">
     <mxGraphModel dx="1877" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -192,7 +192,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="OgydlIfcIWUuVXgb3Rpq-121" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1、App授权&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#ff3333&quot;&gt;2、扫码、购买商品&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3、下单支付&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;4、订单查询&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;5、账户查询&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;6、账户充值&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+        <mxCell id="OgydlIfcIWUuVXgb3Rpq-121" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1、App授权&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#ff3333&quot;&gt;2、扫码、购买商品&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3、下单支付&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;4、订单查询&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;5、账户查询&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;6、账户充值&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;7、申诉退款&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
           <mxGeometry x="230" y="1700" width="150" height="150" as="geometry" />
         </mxCell>
         <mxCell id="OgydlIfcIWUuVXgb3Rpq-122" value="账户服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
