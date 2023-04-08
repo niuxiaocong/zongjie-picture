@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2023-04-08T01:20:15.780Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="9NTWKoT8zr5IfLhD2RuJ" version="21.1.4" type="github" pages="2">
-  <diagram name="第 1 页" id="RkDC4rOG-JaYH36t-Z6l">
+<mxfile host="app.diagrams.net" modified="2023-04-08T05:24:40.945Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="Toe3i6l40U4ChA4Fv2lO" version="21.1.4" type="github" pages="3">
+  <diagram name="梳理" id="RkDC4rOG-JaYH36t-Z6l">
     <mxGraphModel dx="2062" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -647,19 +647,19 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="wX0_9VdwSp3FYLBanD05-1" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;问题1：项目的难点和亮点&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1654" y="20" width="319" height="30" as="geometry" />
+          <mxGeometry x="1610" y="20" width="319" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wX0_9VdwSp3FYLBanD05-2" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;问题2：项目哪里用到了RocketMQ&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1711" y="100" width="259" height="30" as="geometry" />
+        <mxCell id="wX0_9VdwSp3FYLBanD05-2" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;问题2：项目哪里用到了RocketMQ&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1684" y="100" width="259" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wX0_9VdwSp3FYLBanD05-3" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;问题3：项目哪里用到了Redis&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1680" y="160" width="259" height="30" as="geometry" />
+        <mxCell id="wX0_9VdwSp3FYLBanD05-3" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;问题3：项目哪里用到了Redis&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1690" y="160" width="259" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wX0_9VdwSp3FYLBanD05-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="wX0_9VdwSp3FYLBanD05-1" target="wX0_9VdwSp3FYLBanD05-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wX0_9VdwSp3FYLBanD05-5" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;问题4：项目哪里用到了分布式事务&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1701" y="220" width="259" height="30" as="geometry" />
+        <mxCell id="wX0_9VdwSp3FYLBanD05-5" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;问题4：项目哪里用到了锁&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1642" y="220" width="259" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wX0_9VdwSp3FYLBanD05-6" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;问题5：支付宝结单的时候在哪里用到了幂等性&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1711" y="280" width="319" height="30" as="geometry" />
@@ -739,7 +739,11 @@
           <mxGeometry x="1901" y="1085" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="enRor8HvP_-ysP1p0X_b-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="wX0_9VdwSp3FYLBanD05-42" target="enRor8HvP_-ysP1p0X_b-3">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2161" y="1005" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="wX0_9VdwSp3FYLBanD05-42" value="将设备信息保存在Redis" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2101" y="1085" width="120" height="60" as="geometry" />
@@ -748,118 +752,328 @@
           <mxGeometry x="2481" y="440" width="684" height="503" as="geometry" />
         </mxCell>
         <mxCell id="wX0_9VdwSp3FYLBanD05-47" value="&lt;font color=&quot;#ff3333&quot; style=&quot;font-size: 15px;&quot;&gt;问题9：设备是怎么和服务保持心跳连接的&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1711" y="1210" width="399" height="50" as="geometry" />
+          <mxGeometry x="1671" y="1200" width="399" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="wX0_9VdwSp3FYLBanD05-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wX0_9VdwSp3FYLBanD05-48" target="wX0_9VdwSp3FYLBanD05-52">
+        <mxCell id="enRor8HvP_-ysP1p0X_b-1" value="疑问：如果Redis中设置的key过期时间是30s，而货柜发送心跳的时间是35秒，那么每次检测的时候货柜岂不是每次都被下线？" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="830" y="1390" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xFjLnby068UhqPa3IcHp-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="enRor8HvP_-ysP1p0X_b-3" target="xFjLnby068UhqPa3IcHp-55">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wX0_9VdwSp3FYLBanD05-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wX0_9VdwSp3FYLBanD05-48" target="wX0_9VdwSp3FYLBanD05-55">
+        <mxCell id="enRor8HvP_-ysP1p0X_b-3" value="设备编号&lt;br&gt;设备状态&lt;br&gt;最后一次收到心跳时间&lt;br&gt;存通信服务的Hash表" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2270" y="960" width="120" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="xFjLnby068UhqPa3IcHp-1" value="&lt;font color=&quot;#ff3333&quot; style=&quot;font-size: 15px;&quot;&gt;问题10：你们的购买流程是什么样子的。&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1761.5" y="2010" width="399" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xFjLnby068UhqPa3IcHp-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xFjLnby068UhqPa3IcHp-2" target="xFjLnby068UhqPa3IcHp-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xFjLnby068UhqPa3IcHp-2" value="用户去进行扫码" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1761.5" y="2120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xFjLnby068UhqPa3IcHp-4" value="二维码信息包括设备号和仓门号，因为需要知道用户开的是哪个柜子的哪个门。" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="1532" y="2080" width="179" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xFjLnby068UhqPa3IcHp-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xFjLnby068UhqPa3IcHp-7" target="xFjLnby068UhqPa3IcHp-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xFjLnby068UhqPa3IcHp-7" value="参数校验" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1761.5" y="2220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xFjLnby068UhqPa3IcHp-9" value="校验用户是否有没有支付的订单，设备是否正常，仓门是否正常，货道上是否配置商品" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="1532" y="2190" width="179" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xFjLnby068UhqPa3IcHp-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xFjLnby068UhqPa3IcHp-10" target="xFjLnby068UhqPa3IcHp-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xFjLnby068UhqPa3IcHp-10" value="加锁" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1761.5" y="2320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xFjLnby068UhqPa3IcHp-12" value="在这里添加分布式锁，一个门同时只能有一个人购买。补货的时候也是需要添加这把锁，商品改价格的时候" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="1532" y="2300" width="179" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xFjLnby068UhqPa3IcHp-13" value="疑问：比如说一个人开左边的门，一个人开右边的门，然后他们各自取完商品以后，又去对方开的门里拿了商品，这个时候如何计算？" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="2240" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xFjLnby068UhqPa3IcHp-16" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;问题3：项目哪里用到了Redis&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="170" width="259" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xFjLnby068UhqPa3IcHp-17" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;在用户购买商品的时候，运营人员在进行补货、修改商品的时候&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1962" y="220" width="259" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xFjLnby068UhqPa3IcHp-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xFjLnby068UhqPa3IcHp-20" target="xFjLnby068UhqPa3IcHp-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xFjLnby068UhqPa3IcHp-20" value="生成订单号" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1761.5" y="2440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xFjLnby068UhqPa3IcHp-22" value="疑问：这个订单号是按照什么规则生成的？" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="2440" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xFjLnby068UhqPa3IcHp-23" value="生成唯一的订单号" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="1532" y="2430" width="179" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xFjLnby068UhqPa3IcHp-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xFjLnby068UhqPa3IcHp-24" target="xFjLnby068UhqPa3IcHp-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xFjLnby068UhqPa3IcHp-24" value="保存订单，此时的订单状态是一个未授权，仓门的状态为未打开，支付状态为未支付" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1761.5" y="2550" width="121.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xFjLnby068UhqPa3IcHp-26" value="先生成订单，然后保存，之后微信或者支付宝会根据订单号生成一个预授权订单" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="1532" y="2540" width="179" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xFjLnby068UhqPa3IcHp-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.442;entryY=0.029;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xFjLnby068UhqPa3IcHp-27" target="xFjLnby068UhqPa3IcHp-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xFjLnby068UhqPa3IcHp-27" value="微信/支付宝创建预授权订单" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2000" y="2220" width="121.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xFjLnby068UhqPa3IcHp-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xFjLnby068UhqPa3IcHp-30" target="xFjLnby068UhqPa3IcHp-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xFjLnby068UhqPa3IcHp-34" value="发送延时消息队列" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xFjLnby068UhqPa3IcHp-33">
+          <mxGeometry x="-0.3202" y="-2" relative="1" as="geometry">
+            <mxPoint x="17" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xFjLnby068UhqPa3IcHp-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xFjLnby068UhqPa3IcHp-30" target="xFjLnby068UhqPa3IcHp-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xFjLnby068UhqPa3IcHp-30" value="在创建的预授权订单的时候修改订单状态为预授权中" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2007" y="2338" width="121.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xFjLnby068UhqPa3IcHp-32" value="定时任务，超过1分钟没有授权的，取消订单释放分布式锁" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="2260" y="2343" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xFjLnby068UhqPa3IcHp-35" value="1分钟以后拿到这个延时消息，然后去检查这个订单的状态，如果还是预授权中，那么我们就把这个单取消掉" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="2410" y="2250" width="179" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xFjLnby068UhqPa3IcHp-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xFjLnby068UhqPa3IcHp-36" target="xFjLnby068UhqPa3IcHp-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xFjLnby068UhqPa3IcHp-36" value="拉起预授权页面" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2007" y="2460" width="121.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xFjLnby068UhqPa3IcHp-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xFjLnby068UhqPa3IcHp-37" target="xFjLnby068UhqPa3IcHp-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xFjLnby068UhqPa3IcHp-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xFjLnby068UhqPa3IcHp-37" target="xFjLnby068UhqPa3IcHp-44">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1911" y="1330" />
-              <mxPoint x="1911" y="1540" />
+              <mxPoint x="2320" y="2640" />
+              <mxPoint x="1744" y="2640" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="wX0_9VdwSp3FYLBanD05-66" value="续约Redis中Key的时间" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wX0_9VdwSp3FYLBanD05-65">
-          <mxGeometry x="0.1275" relative="1" as="geometry">
-            <mxPoint x="9" y="39" as="offset" />
+        <mxCell id="xFjLnby068UhqPa3IcHp-37" value="回调授权成功，更改订单的状态为授权成功" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2260" y="2465" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xFjLnby068UhqPa3IcHp-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xFjLnby068UhqPa3IcHp-39" target="xFjLnby068UhqPa3IcHp-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xFjLnby068UhqPa3IcHp-39" value="发送消息通知货柜开仓门" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2260" y="2570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xFjLnby068UhqPa3IcHp-41" value="定时任务，如果仓门一直没有打开则取消订单，修改订单的状态为异常" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2481" y="2570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xFjLnby068UhqPa3IcHp-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xFjLnby068UhqPa3IcHp-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1880" y="2790" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wX0_9VdwSp3FYLBanD05-48" value="货柜设备" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;labelBackgroundColor=none;labelBorderColor=#CCCCFF;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="1770.5" y="1280" width="120" height="80" as="geometry" />
+        <mxCell id="xFjLnby068UhqPa3IcHp-44" value="设备服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1684" y="2760" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wX0_9VdwSp3FYLBanD05-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wX0_9VdwSp3FYLBanD05-52" target="wX0_9VdwSp3FYLBanD05-55">
+        <mxCell id="xFjLnby068UhqPa3IcHp-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.246;entryY=1.009;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xFjLnby068UhqPa3IcHp-45" target="xFjLnby068UhqPa3IcHp-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wX0_9VdwSp3FYLBanD05-52" value="发送心跳给设备服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1770.5" y="1410" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="wX0_9VdwSp3FYLBanD05-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wX0_9VdwSp3FYLBanD05-55" target="wX0_9VdwSp3FYLBanD05-58">
+        <mxCell id="xFjLnby068UhqPa3IcHp-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xFjLnby068UhqPa3IcHp-45" target="xFjLnby068UhqPa3IcHp-49">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wX0_9VdwSp3FYLBanD05-61" value="Key过期了" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wX0_9VdwSp3FYLBanD05-59">
-          <mxGeometry x="-0.25" y="-3" relative="1" as="geometry">
+        <mxCell id="xFjLnby068UhqPa3IcHp-45" value="建立仓门订单缓存" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1885" y="2760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xFjLnby068UhqPa3IcHp-47" value="缓存的信息有：订单号、当前仓门各个货到的重量、设备Id，仓门Id，userId" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="1901" y="2660" width="179" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xFjLnby068UhqPa3IcHp-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xFjLnby068UhqPa3IcHp-49" target="xFjLnby068UhqPa3IcHp-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xFjLnby068UhqPa3IcHp-49" value="看设备在连接那台通信服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2090" y="2760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xFjLnby068UhqPa3IcHp-50" value="根据设备类型选择不同的执行器发送字节码或者MQTT" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2090" y="2870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xFjLnby068UhqPa3IcHp-55" value="通信服务1：机器1，机器2&lt;br&gt;通信服务2：机器1，机器2 .。。。" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2450" y="960" width="120" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="xFjLnby068UhqPa3IcHp-60" value="&lt;font color=&quot;#ff3333&quot; style=&quot;font-size: 15px;&quot;&gt;问题11： 你们是怎么进行对账的？&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1654" y="3120" width="399" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xFjLnby068UhqPa3IcHp-61" value="疑问：货柜发送心跳是发送给我们的通信服务还是设备服务？" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="830" y="1270" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wr7EWRYSmN4Gi8CJefnB-2" value="疑问：那你是怎么知道是服务出现的问题，你是怎么排查的？" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="830" y="1500" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="laOVzuUnZA6S7NlrC1B_-52" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1318" y="1240" width="750" height="518" as="geometry" />
+        </mxCell>
+        <mxCell id="laOVzuUnZA6S7NlrC1B_-24" value="货柜设备" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;labelBackgroundColor=none;labelBorderColor=#CCCCFF;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="laOVzuUnZA6S7NlrC1B_-52">
+          <mxGeometry x="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="laOVzuUnZA6S7NlrC1B_-25" value="发送心跳给设备服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="laOVzuUnZA6S7NlrC1B_-52">
+          <mxGeometry x="160" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="laOVzuUnZA6S7NlrC1B_-26" value="假设25秒发送一次命令" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="laOVzuUnZA6S7NlrC1B_-52" source="laOVzuUnZA6S7NlrC1B_-24" target="laOVzuUnZA6S7NlrC1B_-25">
+          <mxGeometry relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wX0_9VdwSp3FYLBanD05-55" value="将心跳存到Redis中&lt;br&gt;key：货柜编号&amp;nbsp;&lt;br&gt;ttl：30秒" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1770.5" y="1510" width="120" height="60" as="geometry" />
+        <mxCell id="laOVzuUnZA6S7NlrC1B_-37" value="心跳Key过期，Redis进行回调" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="laOVzuUnZA6S7NlrC1B_-52">
+          <mxGeometry x="630" y="290" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wX0_9VdwSp3FYLBanD05-56" value="redis 使用hash存储&lt;br&gt;heart:设备编号1 30&lt;br&gt;heart:设备编号2:30" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1450" y="1580" width="120" height="60" as="geometry" />
+        <mxCell id="laOVzuUnZA6S7NlrC1B_-38" value="Redis中是否存在此心跳" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="laOVzuUnZA6S7NlrC1B_-52">
+          <mxGeometry x="160" y="280" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="wX0_9VdwSp3FYLBanD05-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wX0_9VdwSp3FYLBanD05-58" target="wX0_9VdwSp3FYLBanD05-62">
+        <mxCell id="laOVzuUnZA6S7NlrC1B_-29" value="设备服务将心跳进行缓存" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="laOVzuUnZA6S7NlrC1B_-52" source="laOVzuUnZA6S7NlrC1B_-25" target="laOVzuUnZA6S7NlrC1B_-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="laOVzuUnZA6S7NlrC1B_-39" value="将心跳存到Redis中&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;key：货柜编号&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;ttl：30秒" style="whiteSpace=wrap;html=1;" vertex="1" parent="laOVzuUnZA6S7NlrC1B_-52">
+          <mxGeometry x="160" y="424" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="laOVzuUnZA6S7NlrC1B_-40" value="不存在" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="laOVzuUnZA6S7NlrC1B_-52" source="laOVzuUnZA6S7NlrC1B_-38" target="laOVzuUnZA6S7NlrC1B_-39">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wX0_9VdwSp3FYLBanD05-58" value="Redis的key过期了会进行回调" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1770.5" y="1630" width="120" height="60" as="geometry" />
+        <mxCell id="laOVzuUnZA6S7NlrC1B_-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="laOVzuUnZA6S7NlrC1B_-52" source="laOVzuUnZA6S7NlrC1B_-43" target="laOVzuUnZA6S7NlrC1B_-39">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="470" y="454" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="wX0_9VdwSp3FYLBanD05-62" value="设备下线" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1770.5" y="1724" width="120" height="60" as="geometry" />
+        <mxCell id="laOVzuUnZA6S7NlrC1B_-45" value="没有超过，&lt;br&gt;续费心跳的过期时间" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="laOVzuUnZA6S7NlrC1B_-44">
+          <mxGeometry x="0.3972" y="2" relative="1" as="geometry">
+            <mxPoint x="94" y="-36" as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="enRor8HvP_-ysP1p0X_b-1" value="疑问1：如果Redis中设置的key过期时间是30s，而货柜发送心跳的时间是35秒，那么每次检测的时候货柜岂不是每次都被下线" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="1200" y="1380" width="360" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="enRor8HvP_-ysP1p0X_b-3" value="设备编号&lt;br&gt;设备状态&lt;br&gt;最后一次收到心跳时间" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
-          <mxGeometry x="2280" y="1089" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="enRor8HvP_-ysP1p0X_b-5" value="方案1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" vertex="1" parent="1">
-          <mxGeometry x="1670" y="1270" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="enRor8HvP_-ysP1p0X_b-6" value="方案2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" vertex="1" parent="1">
-          <mxGeometry x="2068" y="1280" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="enRor8HvP_-ysP1p0X_b-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="enRor8HvP_-ysP1p0X_b-8" target="enRor8HvP_-ysP1p0X_b-9">
+        <mxCell id="laOVzuUnZA6S7NlrC1B_-46" value="超过" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="laOVzuUnZA6S7NlrC1B_-52" source="laOVzuUnZA6S7NlrC1B_-43" target="laOVzuUnZA6S7NlrC1B_-37">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="enRor8HvP_-ysP1p0X_b-8" value="货柜设备" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;labelBackgroundColor=none;labelBorderColor=#CCCCFF;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="2240" y="1280" width="120" height="80" as="geometry" />
+        <mxCell id="laOVzuUnZA6S7NlrC1B_-43" value="是否发生网络抖动或者服务异常导致服务接受心跳的时间超过了30秒" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="laOVzuUnZA6S7NlrC1B_-52">
+          <mxGeometry x="400" y="280" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="enRor8HvP_-ysP1p0X_b-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="enRor8HvP_-ysP1p0X_b-9" target="enRor8HvP_-ysP1p0X_b-11">
+        <mxCell id="laOVzuUnZA6S7NlrC1B_-42" value="存在" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="laOVzuUnZA6S7NlrC1B_-52" source="laOVzuUnZA6S7NlrC1B_-38" target="laOVzuUnZA6S7NlrC1B_-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="320" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="laOVzuUnZA6S7NlrC1B_-47" value="设备进行下线" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="laOVzuUnZA6S7NlrC1B_-52">
+          <mxGeometry x="630" y="398" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="laOVzuUnZA6S7NlrC1B_-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="laOVzuUnZA6S7NlrC1B_-52" source="laOVzuUnZA6S7NlrC1B_-37" target="laOVzuUnZA6S7NlrC1B_-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="enRor8HvP_-ysP1p0X_b-9" value="发送心跳给设备服务每一次发送心跳都去更新保存在Redis中的设备信息的最后一次收到心跳的时间" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="2210" y="1410" width="180" height="60" as="geometry" />
+        <mxCell id="laOVzuUnZA6S7NlrC1B_-50" value="redis 使用hash存储&lt;br&gt;heart:设备编号1 30&lt;br&gt;heart:设备编号2:30" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="laOVzuUnZA6S7NlrC1B_-52">
+          <mxGeometry y="458" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="enRor8HvP_-ysP1p0X_b-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="enRor8HvP_-ysP1p0X_b-11" target="enRor8HvP_-ysP1p0X_b-13">
+        <mxCell id="laOVzuUnZA6S7NlrC1B_-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="laOVzuUnZA6S7NlrC1B_-52" source="laOVzuUnZA6S7NlrC1B_-39" target="laOVzuUnZA6S7NlrC1B_-50">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="enRor8HvP_-ysP1p0X_b-11" value="假如心跳的过期时间是1分钟，我们则需要去轮询查看。如果当前时间 - 最后一次收到心跳的时间 &amp;gt; 1 则认为我们的设备是没有发送心跳的" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2210" y="1510" width="180" height="90" as="geometry" />
+        <mxCell id="laOVzuUnZA6S7NlrC1B_-53" value="方案1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" vertex="1" parent="laOVzuUnZA6S7NlrC1B_-52">
+          <mxGeometry width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="enRor8HvP_-ysP1p0X_b-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="enRor8HvP_-ysP1p0X_b-13" target="enRor8HvP_-ysP1p0X_b-16">
+        <mxCell id="laOVzuUnZA6S7NlrC1B_-54" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="2200" y="1190" width="588" height="660" as="geometry" />
+        </mxCell>
+        <mxCell id="enRor8HvP_-ysP1p0X_b-6" value="方案2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" vertex="1" parent="laOVzuUnZA6S7NlrC1B_-54">
+          <mxGeometry width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="enRor8HvP_-ysP1p0X_b-8" value="货柜设备" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;labelBackgroundColor=none;labelBorderColor=#CCCCFF;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="laOVzuUnZA6S7NlrC1B_-54">
+          <mxGeometry x="139" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="enRor8HvP_-ysP1p0X_b-9" value="发送心跳给设备服务每一次发送心跳都去更新保存在Redis中的设备信息的最后一次收到心跳的时间" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="laOVzuUnZA6S7NlrC1B_-54">
+          <mxGeometry x="109" y="130" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="enRor8HvP_-ysP1p0X_b-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="laOVzuUnZA6S7NlrC1B_-54" source="enRor8HvP_-ysP1p0X_b-8" target="enRor8HvP_-ysP1p0X_b-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="enRor8HvP_-ysP1p0X_b-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="enRor8HvP_-ysP1p0X_b-13" target="enRor8HvP_-ysP1p0X_b-18">
+        <mxCell id="enRor8HvP_-ysP1p0X_b-11" value="假如心跳的过期时间是1分钟，我们则需要去轮询查看。如果当前时间 - 最后一次收到心跳的时间 &amp;gt; 1 则认为我们的设备是没有发送心跳的" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="laOVzuUnZA6S7NlrC1B_-54">
+          <mxGeometry x="109" y="230" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="enRor8HvP_-ysP1p0X_b-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="laOVzuUnZA6S7NlrC1B_-54" source="enRor8HvP_-ysP1p0X_b-9" target="enRor8HvP_-ysP1p0X_b-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="enRor8HvP_-ysP1p0X_b-13" value="心跳计数器&lt;br&gt;假设我现在有2000台设备，每分钟需要收到4000字节的心跳，如果超过20%的心跳没有收上来，则任务我当前的服务是有问题的&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2210" y="1630" width="180" height="90" as="geometry" />
+        <mxCell id="enRor8HvP_-ysP1p0X_b-13" value="心跳计数器&lt;br&gt;假设我现在有2000台设备，每分钟需要收到4000字节的心跳，如果超过20%的心跳没有收上来，则任务我当前的服务是有问题的&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="laOVzuUnZA6S7NlrC1B_-54">
+          <mxGeometry x="109" y="350" width="180" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="enRor8HvP_-ysP1p0X_b-15" value="心跳计数器的作用就是看我的服务是不是出现问题了。" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
-          <mxGeometry x="2510" y="1550" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="enRor8HvP_-ysP1p0X_b-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="enRor8HvP_-ysP1p0X_b-16" target="enRor8HvP_-ysP1p0X_b-20">
+        <mxCell id="enRor8HvP_-ysP1p0X_b-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="laOVzuUnZA6S7NlrC1B_-54" source="enRor8HvP_-ysP1p0X_b-11" target="enRor8HvP_-ysP1p0X_b-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="enRor8HvP_-ysP1p0X_b-16" value="低于20%，设备可以进行下线" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="2150" y="1770" width="120" height="60" as="geometry" />
+        <mxCell id="enRor8HvP_-ysP1p0X_b-15" value="心跳计数器的作用就是看我的服务是不是出现问题了。" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="laOVzuUnZA6S7NlrC1B_-54">
+          <mxGeometry x="409" y="270" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="enRor8HvP_-ysP1p0X_b-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="enRor8HvP_-ysP1p0X_b-18" target="enRor8HvP_-ysP1p0X_b-20">
+        <mxCell id="enRor8HvP_-ysP1p0X_b-16" value="低于20%，设备可以进行下线" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="laOVzuUnZA6S7NlrC1B_-54">
+          <mxGeometry x="49" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="enRor8HvP_-ysP1p0X_b-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="laOVzuUnZA6S7NlrC1B_-54" source="enRor8HvP_-ysP1p0X_b-13" target="enRor8HvP_-ysP1p0X_b-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="enRor8HvP_-ysP1p0X_b-25" value="j解释" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.006;entryY=0.444;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="enRor8HvP_-ysP1p0X_b-18" target="enRor8HvP_-ysP1p0X_b-24">
+        <mxCell id="enRor8HvP_-ysP1p0X_b-18" value="高于20%，设备在进行下一次轮询的时候进行下线" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="laOVzuUnZA6S7NlrC1B_-54">
+          <mxGeometry x="219" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="enRor8HvP_-ysP1p0X_b-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="laOVzuUnZA6S7NlrC1B_-54" source="enRor8HvP_-ysP1p0X_b-13" target="enRor8HvP_-ysP1p0X_b-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="enRor8HvP_-ysP1p0X_b-18" value="高于20%，设备在进行下一次轮询的时候进行下线" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="2320" y="1770" width="120" height="60" as="geometry" />
+        <mxCell id="enRor8HvP_-ysP1p0X_b-20" value="类似自我保护机制" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="laOVzuUnZA6S7NlrC1B_-54">
+          <mxGeometry x="139" y="600" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="enRor8HvP_-ysP1p0X_b-20" value="类似自我保护机制" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="2240" y="1880" width="120" height="60" as="geometry" />
+        <mxCell id="enRor8HvP_-ysP1p0X_b-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="laOVzuUnZA6S7NlrC1B_-54" source="enRor8HvP_-ysP1p0X_b-16" target="enRor8HvP_-ysP1p0X_b-20">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="enRor8HvP_-ysP1p0X_b-24" value="有可能我们的设备没有问题由我们服务的原因造成的设备意外下线。第一次先保留设备的状态，在下一次轮询的时候还会去看这个设备的状态，此时如果能收到这个设备的心跳，那么这个设备就不会被下线，否则这个设备就下线" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
-          <mxGeometry x="2510" y="1720" width="179" height="180" as="geometry" />
+        <mxCell id="enRor8HvP_-ysP1p0X_b-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="laOVzuUnZA6S7NlrC1B_-54" source="enRor8HvP_-ysP1p0X_b-18" target="enRor8HvP_-ysP1p0X_b-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="enRor8HvP_-ysP1p0X_b-24" value="有可能我们的设备没有问题由我们服务的原因造成的设备意外下线。第一次先保留设备的状态，在下一次轮询的时候还会去看这个设备的状态，此时如果能收到这个设备的心跳，那么这个设备就不会被下线，否则这个设备就下线" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="laOVzuUnZA6S7NlrC1B_-54">
+          <mxGeometry x="409" y="440" width="179" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="enRor8HvP_-ysP1p0X_b-25" value="j解释" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.006;entryY=0.444;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="laOVzuUnZA6S7NlrC1B_-54" source="enRor8HvP_-ysP1p0X_b-18" target="enRor8HvP_-ysP1p0X_b-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Ft3r6w67uGztTM6LZk_l" name="一些问题和面试题目2">
+    <mxGraphModel dx="223" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zZ6uPG1gt2KQw7VGxqfl-1" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;问题1：项目的难点和亮点&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="827" y="40" width="319" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zZ6uPG1gt2KQw7VGxqfl-2" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;问题2：在做项目中遇到的问题，可以简单讲讲吗？&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="827" y="460" width="353" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zZ6uPG1gt2KQw7VGxqfl-6" value="1、技术上的难点，主要是集中在服务和设备之间的通信，设备网络状态和指令的不稳定性。&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;1.1、设备命令的不确定性，设备门开了以后没有给我们发送开门指令怎么处理，用户取完商品关门没有以后设备没有发送关门指令的处理，还有设备和服务之间心跳保持，因为网络原因导致我们的设备下线。&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;br&gt;2、业务上的难点，因为我们服务的是C端的用户，C端用户相较于B端用户来说，B端用户的操作流程是比较规范的，例如一些财务软件，这些流程都是被规定好的，而我们的C端用户它的操作流程可能就不会按照规矩来，操作比较灵活，这就导致了在做项目的时候遇到了一些不可预知性的问题。" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="827" y="80" width="733" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="zZ6uPG1gt2KQw7VGxqfl-7" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;问题3：你在项目中承担了什么样的角色？&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="827" y="760" width="319" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zZ6uPG1gt2KQw7VGxqfl-8" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;问题4：你们设备意外下线的原因是怎么引起的，你是怎么解决设备被异常下线的问题的？&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="827" y="1080" width="333" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zZ6uPG1gt2KQw7VGxqfl-9" value="1、遇到了设备由于网络原因被意外下线。&lt;br&gt;2、用户买完东西，关闭货柜门，但是没有收到货柜的关门指令导致没有办法结单的问题&lt;br&gt;3、用户预授权以后，但是货柜没有发送开门指令，导致货柜开不了门。&lt;br&gt;4、因为我们采用的是重力柜，是需要根据重量来进行结单的，有的用户就取完商品以后，往里面丢一块砖头然后关门，这个时候我们没有进行扣费。&lt;br&gt;5、还有就是用户开门以后，没有买东西，但是他把商品放在了不同货道上。&lt;br&gt;6、还有就是用户拿了两瓶水但是只收了一瓶的钱我们需要去联系用户让他补钱。&lt;br&gt;7、还有就是用户拿了1瓶水，但是我们收了两份的钱这个时候我们是需要进行退款的。" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="827" y="500" width="733" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="pJmUVe7GLxKCG9YHolJF-1" value="意外原因：我们一开始设备上线登录的时候会去缓存这个心跳信息并且设置了30秒的超时时间，货柜向服务发送心跳时间是25秒，预留出来5秒的时间让服务来进行接受心跳，但是在一些特殊情况下服务接受到请求的时间会超过30秒，比如说网络阻塞、抖动、或者是我们的服务异常，都会延时我们这个心跳接受，那么我们的服务在规定时间内没有接受到心跳，就认为这个货柜有问题了，就会被贸然下线。&lt;br&gt;解决方案：我们的设备在进行上线登录的时候，我们会去缓存一下这个设备最后一次收到心跳的时间，之后我们每一次去发送心跳都会去更新最后一次收到心跳的时间，我们设置这个心跳的过期时间是1分钟，之后就进行轮询的查看，如果当前时间 - 最后一次收到心跳的时间超过 1 分钟，就认为我们的这个设备没有发送心跳。然后配合心跳计数器，假设我现在有2000台设备，每分钟需要收到4000字节的心跳，如果超过20%的心跳没有收上来，则任务我当前的服务是有问题的，就不会在这次操作下线我们的设备，它会进行下一次的轮询，这次轮询发现低于这个20%那么就认为不是我服务的问题则会对设备进行下线。" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="827" y="1169" width="733" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
