@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-08T11:58:10.313Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="uJkaCRlyC4qr6k6_b67i" version="21.1.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-04-09T12:42:00.706Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="u_ITqPVVl3B_XhtuHYLZ" version="21.1.4" type="github" pages="3">
   <diagram name="梳理" id="RkDC4rOG-JaYH36t-Z6l">
-    <mxGraphModel dx="1877" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2117" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -831,7 +831,7 @@
           <mxGeometry x="2270" y="960" width="120" height="105" as="geometry" />
         </mxCell>
         <mxCell id="xFjLnby068UhqPa3IcHp-1" value="&lt;font color=&quot;#ff3333&quot; style=&quot;font-size: 15px;&quot;&gt;问题10：你们的购买流程是什么样子的。&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1761.5" y="2010" width="399" height="50" as="geometry" />
+          <mxGeometry x="1654" y="1950" width="399" height="50" as="geometry" />
         </mxCell>
         <mxCell id="xFjLnby068UhqPa3IcHp-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="xFjLnby068UhqPa3IcHp-2" target="xFjLnby068UhqPa3IcHp-7">
           <mxGeometry relative="1" as="geometry" />
@@ -925,7 +925,7 @@
         <mxCell id="xFjLnby068UhqPa3IcHp-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="xFjLnby068UhqPa3IcHp-37" target="xFjLnby068UhqPa3IcHp-44">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2320" y="2650" />
+              <mxPoint x="2270" y="2650" />
               <mxPoint x="1744" y="2650" />
             </Array>
           </mxGeometry>
@@ -946,7 +946,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xFjLnby068UhqPa3IcHp-39" value="发送消息通知货柜开仓门" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+        <mxCell id="xFjLnby068UhqPa3IcHp-39" value="发送消息通知货柜开仓门" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
           <mxGeometry x="2260" y="2570" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xFjLnby068UhqPa3IcHp-41" value="定时任务，如果仓门一直没有打开则取消订单，修改订单仓门的状态为异常" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
@@ -1137,11 +1137,21 @@
         <mxCell id="BfyUIVtp1yCfNJ6ZdMnj-1" value="通信服务（Receive）" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="2260" y="3050" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="J3NClM2CkeH2bcYq8U2k-2" value="f返回开门结果" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="BfyUIVtp1yCfNJ6ZdMnj-4" target="J3NClM2CkeH2bcYq8U2k-1">
+        <mxCell id="J3NClM2CkeH2bcYq8U2k-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="BfyUIVtp1yCfNJ6ZdMnj-4" target="J3NClM2CkeH2bcYq8U2k-1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sPb7NkKB_zHMuuvbDQQu-1" value="解析出来的指令是开门，交给设备服务处理这个指令" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="J3NClM2CkeH2bcYq8U2k-2">
+          <mxGeometry x="0.2416" y="2" relative="1" as="geometry">
+            <mxPoint x="71" y="-2" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="MHRekutknOjexNjmLCW5-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="BfyUIVtp1yCfNJ6ZdMnj-4" target="MHRekutknOjexNjmLCW5-1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sPb7NkKB_zHMuuvbDQQu-8" value="解析出来的指令是关门&lt;br&gt;，交给设备服务处理这个指令" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MHRekutknOjexNjmLCW5-2">
+          <mxGeometry x="-0.0236" y="-2" relative="1" as="geometry">
+            <mxPoint x="-13" y="-2" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="4vjo4_lDomul-1b-Z0UM-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="BfyUIVtp1yCfNJ6ZdMnj-4" target="4vjo4_lDomul-1b-Z0UM-1">
           <mxGeometry relative="1" as="geometry" />
@@ -1152,16 +1162,32 @@
         <mxCell id="BfyUIVtp1yCfNJ6ZdMnj-5" value="通信服务将设备传过来的结果交给设备服处理" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="2450" y="3040" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bQ6XODPaDUyJOFHrRD9E-1" value="设备锁开" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="J3NClM2CkeH2bcYq8U2k-1" target="Gw2seSNfUHyHeHbH7Vvt-1">
+        <mxCell id="bQ6XODPaDUyJOFHrRD9E-1" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;门锁状态是开&lt;/span&gt;&#xa;&#xa;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="J3NClM2CkeH2bcYq8U2k-1" target="Gw2seSNfUHyHeHbH7Vvt-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="J3NClM2CkeH2bcYq8U2k-1" value="解析的结果是开门" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+        <mxCell id="sPb7NkKB_zHMuuvbDQQu-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="J3NClM2CkeH2bcYq8U2k-1" target="sPb7NkKB_zHMuuvbDQQu-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sPb7NkKB_zHMuuvbDQQu-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="J3NClM2CkeH2bcYq8U2k-1" target="vSKYLH4WUyuV_YerlzeF-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2120" y="3330" />
+              <mxPoint x="2120" y="3550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sPb7NkKB_zHMuuvbDQQu-5" value="门锁状态是关" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sPb7NkKB_zHMuuvbDQQu-4">
+          <mxGeometry x="-0.4764" y="-3" relative="1" as="geometry">
+            <mxPoint x="53" y="87" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J3NClM2CkeH2bcYq8U2k-1" value="开门指令结果返回" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="1800" y="3300" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uhawdk3uFDL84s5SlYEq-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="MHRekutknOjexNjmLCW5-1" target="uhawdk3uFDL84s5SlYEq-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MHRekutknOjexNjmLCW5-1" value="解析结果是关门" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+        <mxCell id="MHRekutknOjexNjmLCW5-1" value="关门指令返回" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="2780" y="3300" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uhawdk3uFDL84s5SlYEq-15" value="订单异常，保存商品信息" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelBackgroundColor=none;" vertex="1" parent="1">
@@ -1215,19 +1241,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="4vjo4_lDomul-1b-Z0UM-1" value="没有收到任何消息" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2260" y="3270" width="120" height="60" as="geometry" />
+          <mxGeometry x="2260" y="3280" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="I39b4Z8yqm6pWUtMbkZJ-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="Gw2seSNfUHyHeHbH7Vvt-1" target="I39b4Z8yqm6pWUtMbkZJ-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Gw2seSNfUHyHeHbH7Vvt-1" value="参数校验、幂等性校验" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1800" y="3400" width="120" height="60" as="geometry" />
+          <mxGeometry x="1800" y="3450" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="I39b4Z8yqm6pWUtMbkZJ-2" value="更改订单仓门状态为已开门，记录开门时间" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1800" y="3520" width="120" height="60" as="geometry" />
+          <mxGeometry x="1800" y="3570" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QmD8p0T1NQcfhuZcHwZD-3" value="设备发送开门，但是服务给的是未开门或者没有收到指令。" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2330" y="3310" width="120" height="60" as="geometry" />
+          <mxGeometry x="2340" y="3320" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QmD8p0T1NQcfhuZcHwZD-4" value="TODO" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="2250" y="3890" width="120" height="60" as="geometry" />
@@ -1249,13 +1275,26 @@
         <mxCell id="vSKYLH4WUyuV_YerlzeF-7" value="请求5次都没有解锁" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="i7BWaKt45pMDTeJ8pruZ-2" target="vSKYLH4WUyuV_YerlzeF-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="sPb7NkKB_zHMuuvbDQQu-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="i7BWaKt45pMDTeJ8pruZ-2" target="Gw2seSNfUHyHeHbH7Vvt-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2080" y="3656" />
+              <mxPoint x="2080" y="3480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sPb7NkKB_zHMuuvbDQQu-7" value="门锁状态是开" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sPb7NkKB_zHMuuvbDQQu-6">
+          <mxGeometry x="-0.0519" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="i7BWaKt45pMDTeJ8pruZ-2" value="设备锁装状态" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="2260" y="3616" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="vSKYLH4WUyuV_YerlzeF-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vSKYLH4WUyuV_YerlzeF-1" target="i7BWaKt45pMDTeJ8pruZ-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vSKYLH4WUyuV_YerlzeF-1" value="请求查询门仓状态" style="rounded=0;whiteSpace=wrap;html=1;align=center;labelBackgroundColor=none;" vertex="1" parent="1">
+        <mxCell id="vSKYLH4WUyuV_YerlzeF-1" value="请求查询设备门仓状态" style="rounded=0;whiteSpace=wrap;html=1;align=center;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="2260" y="3520" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vSKYLH4WUyuV_YerlzeF-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vSKYLH4WUyuV_YerlzeF-6" target="vSKYLH4WUyuV_YerlzeF-8">
@@ -1266,6 +1305,9 @@
         </mxCell>
         <mxCell id="vSKYLH4WUyuV_YerlzeF-8" value="通知运营人员经行检测" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="2460" y="3760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sPb7NkKB_zHMuuvbDQQu-2" value="解释：设备服务收到开门指令，但是货柜的门锁有可能是开，也有可能是关" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="1642" y="3230" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
