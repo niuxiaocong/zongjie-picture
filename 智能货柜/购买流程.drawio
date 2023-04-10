@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-09T13:09:56.974Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="R3p0XpNc9uNLEbEW0XRE" version="21.1.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-04-10T08:46:13.466Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="UHk6UNL5o_AaYe0H0EMR" version="21.1.4" type="github" pages="3">
   <diagram name="梳理" id="RkDC4rOG-JaYH36t-Z6l">
     <mxGraphModel dx="1877" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -533,7 +533,7 @@
           <mxGeometry x="1921" y="2530" width="350" height="85" as="geometry" />
         </mxCell>
         <mxCell id="wvqYO3dV8kKgbjnCDc3z-189" value="解释：为社么这里使用事务型消息。&lt;br&gt;因为在这里使用的是最终一致性，需要保证这里的操作是一个完整的" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
-          <mxGeometry x="1250" y="2060" width="140" height="80" as="geometry" />
+          <mxGeometry x="1171" y="2090" width="140" height="110" as="geometry" />
         </mxCell>
         <mxCell id="wvqYO3dV8kKgbjnCDc3z-193" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wvqYO3dV8kKgbjnCDc3z-191" target="wvqYO3dV8kKgbjnCDc3z-156">
           <mxGeometry relative="1" as="geometry" />
@@ -707,6 +707,15 @@
         </mxCell>
         <mxCell id="wvqYO3dV8kKgbjnCDc3z-165" value="优惠券分成两种：现金券和团购券&lt;br&gt;现金券：例如我有5快的现金券，买两瓶可乐6快，这个时候我可以拿现金券去抵扣，这个时候只需要付块1快就行。&lt;br&gt;我们可以将现金券和商品进行绑定，比如就买可乐的时候可以用，买其他商品的时候不能用现金券&lt;br&gt;团购券：比如我给你发了两瓶可乐的团购券，那么我可以拿着这团购券去拿两瓶可乐，和钱无关了。&lt;br&gt;现金券可以不指定商品Id，可以是一个全类券，而我们的团购券必须指定商品Id 。" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="HorOav6JXJ3nXyEydsOB-1">
           <mxGeometry x="400" y="40" width="310" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Bc4W90uUfuhKhIyjgaUk-1" value="主动上报锁的变化&lt;br&gt;开门变成关门才会发送这一条&lt;br&gt;关门变成开门不会发送这个信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="1440" width="270" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Bc4W90uUfuhKhIyjgaUk-3" value="等到关门以后的一个稳定重量" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1241" y="1780" width="89" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Bc4W90uUfuhKhIyjgaUk-4" value="如果现金券的金额超过商品的30%，我们规定就不让用，让它优先使用团购券" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2008" y="2470" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
