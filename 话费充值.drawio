@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-13T01:20:31.300Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="zyixz4RDnBnmHGElWR1S" version="21.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-13T04:53:15.324Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="9iF5_oFMrjKBk4oi74JD" version="21.1.5" type="github">
   <diagram name="第 1 页" id="uLm2FXyUYoYFo3uHgV7U">
-    <mxGraphModel dx="1877" dy="1718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2704" dy="1718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -226,6 +226,12 @@
         </mxCell>
         <mxCell id="qJ08ZY0-j0J5e2I6gDsd-122" value="&lt;h1&gt;三方下游&lt;/h1&gt;&lt;div&gt;下游会主动去调用我们的配单系统，调用完成以后再给配单一个回调，&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1409" y="870" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-133" value="&lt;h1&gt;项目流程&lt;/h1&gt;&lt;div&gt;项目中的上游就是拼多多、淘宝这种商户，用户在商户那边进行付款以后，会调用我们的内部系统然后把订单同步到我们的推单系统中，在推单这里做好落库保存，然后使用Set结构保存在我们的Redis中。然后通过定时任务去扫描Redis，再把Redis中的订单分配给配单系统 进行落库保存，然后存放到Redis中，然后通过一个推单服务定时去拉取Redis中的数据进行消费也就是去获取运营商的支付凭证，拿到支付凭证以后会将拿到的支付凭证存放到Redis中，然后配单系统拿到支付凭证，再去同步给我们的下游（不同的支付渠道）&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1040" y="440" width="800" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-134" value="&lt;h1&gt;死锁问题&lt;/h1&gt;&lt;div&gt;因为在进行接口优化，拆成了多线程异步的去跑，又因为多线程异步修改的是同一行数据的不同字段，而且还是批量异步，因为他的顺序不一致性，它就会出现死锁问题&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1040" y="600" width="290" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
