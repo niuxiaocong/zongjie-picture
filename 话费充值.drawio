@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-13T04:53:15.324Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="9iF5_oFMrjKBk4oi74JD" version="21.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-13T05:39:09.730Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="MrvVP0c7dEBUS1OB6ORH" version="21.1.5" type="github">
   <diagram name="第 1 页" id="uLm2FXyUYoYFo3uHgV7U">
     <mxGraphModel dx="2704" dy="1718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -33,9 +33,6 @@
             <mxPoint x="-41" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qJ08ZY0-j0J5e2I6gDsd-54" target="qJ08ZY0-j0J5e2I6gDsd-60">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="qJ08ZY0-j0J5e2I6gDsd-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.442;entryY=1.057;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qJ08ZY0-j0J5e2I6gDsd-54" target="qJ08ZY0-j0J5e2I6gDsd-52">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -49,14 +46,20 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-137" value="将订单存入&lt;br&gt;到Redis" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.145;entryY=1;entryDx=0;entryDy=-4.35;entryPerimeter=0;" edge="1" parent="1" target="qJ08ZY0-j0J5e2I6gDsd-60">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1037" y="700" as="targetPoint" />
+            <mxPoint x="1037" y="750" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="qJ08ZY0-j0J5e2I6gDsd-54" value="配单系统（收到推单的订单，落库）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="990" y="750" width="120" height="70" as="geometry" />
+          <mxGeometry x="1000" y="750" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="qJ08ZY0-j0J5e2I6gDsd-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="qJ08ZY0-j0J5e2I6gDsd-56" target="qJ08ZY0-j0J5e2I6gDsd-54">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1310" y="1010" />
-              <mxPoint x="1050" y="1010" />
+              <mxPoint x="1060" y="1010" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -80,7 +83,7 @@
         </mxCell>
         <mxCell id="qJ08ZY0-j0J5e2I6gDsd-74" value="去调用运营支付商接&lt;br&gt;口拿到支付凭证" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qJ08ZY0-j0J5e2I6gDsd-69">
           <mxGeometry x="0.265" y="-1" relative="1" as="geometry">
-            <mxPoint x="-1" y="26" as="offset" />
+            <mxPoint x="-1" y="6" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="qJ08ZY0-j0J5e2I6gDsd-72" value="返回支付凭证，&lt;br&gt;保存到Redis" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qJ08ZY0-j0J5e2I6gDsd-58" target="qJ08ZY0-j0J5e2I6gDsd-60">
@@ -104,7 +107,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qJ08ZY0-j0J5e2I6gDsd-60" value="Redis" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="1020" y="640" width="60" height="60" as="geometry" />
+          <mxGeometry x="1025" y="639" width="70" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qJ08ZY0-j0J5e2I6gDsd-62" value="运营支付商" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1000" y="290" width="120" height="70" as="geometry" />
@@ -198,7 +201,7 @@
           <mxGeometry x="290" y="265" width="190" height="120" as="geometry" />
         </mxCell>
         <mxCell id="qJ08ZY0-j0J5e2I6gDsd-110" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="1270" y="260" width="709" height="370" as="geometry" />
+          <mxGeometry x="1260" y="270" width="709" height="370" as="geometry" />
         </mxCell>
         <mxCell id="qJ08ZY0-j0J5e2I6gDsd-71" value="&lt;h1&gt;List存储结构&lt;/h1&gt;&lt;p&gt;配单系统会将订单采用list结构保存到Redis中，订单推送服务会定时的从Redis中拉取订单的数据，然后取运营支付商中获取支付凭证之后将获取到的支付凭证存回到Redis中。&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;在这里为什么采用了List存储方式&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;在这个场景下list采用了左进左出(也就是先进后出)的的方式。为什么采用这种方式而不用左进右出（也就是先进先出）的方式。看下面例子，假如凭证的的有效期是3分钟，接下来有“no1”，“no2”,&quot;no3&quot;,&quot;no4&quot;,&quot;no5&quot;个凭证每一个凭证的过期时间是 1，2，3，4，5。假设系统是理想的情况下3秒钟处理完一个支付，但是现在在2分59秒钟来了一个请求，&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;如果先去获取先进来的哪个凭证“no1”,此时它的过期时间还剩下1秒，但是系统的处理时间是3秒，这样的话会在系统处理的过程中凭证失效了，这样会引起一些问题。&lt;/p&gt;&lt;p&gt;但是如果先去获取后进来的哪个，这个时候它的过期时间是5秒，系统可以处理完，所以说从左边出来是为了最大限度的保证凭证被消费。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="qJ08ZY0-j0J5e2I6gDsd-110">
           <mxGeometry width="709" height="370" as="geometry" />
@@ -232,6 +235,22 @@
         </mxCell>
         <mxCell id="qJ08ZY0-j0J5e2I6gDsd-134" value="&lt;h1&gt;死锁问题&lt;/h1&gt;&lt;div&gt;因为在进行接口优化，拆成了多线程异步的去跑，又因为多线程异步修改的是同一行数据的不同字段，而且还是批量异步，因为他的顺序不一致性，它就会出现死锁问题&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1040" y="600" width="290" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-135" value="拉取&lt;br&gt;支付凭证" style="endArrow=classic;html=1;rounded=0;exitX=0.855;exitY=1;exitDx=0;exitDy=-4.35;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1093.3000000000002" y="695.6500000000001" as="sourcePoint" />
+            <mxPoint x="1092" y="750" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-139" value="&lt;h1&gt;OOM问题&lt;/h1&gt;&lt;div&gt;同步前：在调用三方之前没有做任何的 缓冲、限流处理直接同步的调用，因为偶发的网络抖动，导致的OOM问题。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;同步后：由于线程池的参数配置不合理导致的OOM，例子：核心线程1000，最大线程6000&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;&lt;b&gt;OOM问题排查&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;使用Arthas&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="20" width="270" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-140" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.35;exitY=1.004;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="qJ08ZY0-j0J5e2I6gDsd-139">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1180" y="290" as="sourcePoint" />
+            <mxPoint x="1070" y="450" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
