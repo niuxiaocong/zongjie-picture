@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-12T13:53:49.598Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="mXgKPXvkntLNKTtpY5dA" version="21.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-13T00:38:50.940Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="WKLvnGJSYbNQIiz_gAb-" version="21.1.5" type="github">
   <diagram name="第 1 页" id="uLm2FXyUYoYFo3uHgV7U">
     <mxGraphModel dx="1877" dy="1718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -15,15 +15,12 @@
         <mxCell id="qJ08ZY0-j0J5e2I6gDsd-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qJ08ZY0-j0J5e2I6gDsd-52" target="qJ08ZY0-j0J5e2I6gDsd-77">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-93" value="订单支付成功之后开始回调" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="qJ08ZY0-j0J5e2I6gDsd-96">
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-123" value="订单支付成功以后开始回调" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qJ08ZY0-j0J5e2I6gDsd-52" target="qJ08ZY0-j0J5e2I6gDsd-43">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="255" y="753" as="targetPoint" />
-            <mxPoint x="525" y="753" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="525" y="683" />
-              <mxPoint x="120" y="683" />
+              <mxPoint x="520" y="680" />
+              <mxPoint x="-90" y="680" />
             </Array>
-            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="qJ08ZY0-j0J5e2I6gDsd-52" value="推单系统（收到上游派过来的订单然后落库）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -34,7 +31,7 @@
         </mxCell>
         <mxCell id="qJ08ZY0-j0J5e2I6gDsd-101" value="支付凭证" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qJ08ZY0-j0J5e2I6gDsd-57">
           <mxGeometry x="-0.1132" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-41" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="qJ08ZY0-j0J5e2I6gDsd-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qJ08ZY0-j0J5e2I6gDsd-54" target="qJ08ZY0-j0J5e2I6gDsd-60">
@@ -84,7 +81,7 @@
         </mxCell>
         <mxCell id="qJ08ZY0-j0J5e2I6gDsd-74" value="去调用运营支付商接&lt;br&gt;口拿到支付凭证" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qJ08ZY0-j0J5e2I6gDsd-69">
           <mxGeometry x="0.265" y="-1" relative="1" as="geometry">
-            <mxPoint x="-1" y="11" as="offset" />
+            <mxPoint x="-1" y="26" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="qJ08ZY0-j0J5e2I6gDsd-72" value="返回支付凭证，&lt;br&gt;保存到Redis" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qJ08ZY0-j0J5e2I6gDsd-58" target="qJ08ZY0-j0J5e2I6gDsd-60">
@@ -94,6 +91,11 @@
               <mxPoint x="1170" y="670" />
             </Array>
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qJ08ZY0-j0J5e2I6gDsd-58">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="830" y="120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="qJ08ZY0-j0J5e2I6gDsd-58" value="订单推送服务" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
@@ -106,13 +108,10 @@
           <mxGeometry x="1030" y="640" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qJ08ZY0-j0J5e2I6gDsd-62" value="运营支付商" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="330" width="120" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-71" value="&lt;h1&gt;&lt;br&gt;&lt;/h1&gt;&lt;p&gt;配单系统会将订单采用list结构保存到Redis中，订单推送服务会定时的从Redis中拉取订单的数据，然后取运营支付商中获取支付凭证之后将获取到的支付凭证存回到Redis中。&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1250" y="450" width="190" height="150" as="geometry" />
+          <mxGeometry x="1000" y="290" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="qJ08ZY0-j0J5e2I6gDsd-73" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="-10" y="-260" width="720" height="230" as="geometry" />
+          <mxGeometry y="-820" width="720" height="230" as="geometry" />
         </mxCell>
         <mxCell id="qJ08ZY0-j0J5e2I6gDsd-1" value="上游（PDD、淘宝）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="qJ08ZY0-j0J5e2I6gDsd-73">
           <mxGeometry y="150" width="120" height="60" as="geometry" />
@@ -167,19 +166,19 @@
         <mxCell id="qJ08ZY0-j0J5e2I6gDsd-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qJ08ZY0-j0J5e2I6gDsd-77" target="qJ08ZY0-j0J5e2I6gDsd-54">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="730" y="650" />
-              <mxPoint x="730" y="785" />
+              <mxPoint x="840" y="650" />
+              <mxPoint x="840" y="785" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="qJ08ZY0-j0J5e2I6gDsd-77" value="Redis" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="640" y="615" width="60" height="60" as="geometry" />
+          <mxGeometry x="700" y="615" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qJ08ZY0-j0J5e2I6gDsd-81" value="&lt;h1&gt;Redis&lt;/h1&gt;&lt;div&gt;订单采用Redis中的Set结构进行保存，为了防止出现重复的订单。&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="580" y="490" width="190" height="120" as="geometry" />
         </mxCell>
         <mxCell id="qJ08ZY0-j0J5e2I6gDsd-94" value="&lt;h1&gt;死锁问题&lt;/h1&gt;&lt;p&gt;1、推单系统处理配单系统成功回调的订单状态&lt;/p&gt;&lt;p&gt;2、通知上游回调成功以后，推单系统从Redis中拉取订单然后修改状态&lt;/p&gt;&lt;p&gt;3、因为是异步回调，所以会产生死锁问题。&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;font style=&quot;font-size: 26px;&quot;&gt;如何解决&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;1、将所有订单可以采取一个排序的方式来处理，但是这里没有采用这种方式，因为这种方式如果以后的业务进行扩展，扩展的业务又需要进行排序，对代码的侵入性很强。&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;2、在这里采用了分表的方式，单独存放某一部分的数据，这样就不会产生死锁，并且对代码的也没有很强的侵入性。&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="160" y="840" width="270" height="310" as="geometry" />
+          <mxGeometry x="183" y="870" width="270" height="310" as="geometry" />
         </mxCell>
         <mxCell id="qJ08ZY0-j0J5e2I6gDsd-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qJ08ZY0-j0J5e2I6gDsd-95" target="qJ08ZY0-j0J5e2I6gDsd-52">
           <mxGeometry relative="1" as="geometry" />
@@ -194,10 +193,61 @@
           <mxGeometry x="70" y="762" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qJ08ZY0-j0J5e2I6gDsd-99" value="&lt;h1&gt;上游&lt;/h1&gt;&lt;div&gt;上游给订单到订单推送服务，然后保存到Redis中&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-190" y="585" width="190" height="120" as="geometry" />
+          <mxGeometry x="-190" y="520" width="190" height="120" as="geometry" />
         </mxCell>
         <mxCell id="qJ08ZY0-j0J5e2I6gDsd-100" value="&lt;h1&gt;推单系统&lt;/h1&gt;&lt;p&gt;推单系统通过一个异步线程从Redis中拉取结果。&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="280" y="540" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-110" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1280" y="270" width="709" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-71" value="&lt;h1&gt;List存储结构&lt;/h1&gt;&lt;p&gt;配单系统会将订单采用list结构保存到Redis中，订单推送服务会定时的从Redis中拉取订单的数据，然后取运营支付商中获取支付凭证之后将获取到的支付凭证存回到Redis中。&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;在这里为什么采用了List存储方式&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;在这个场景下list采用了左进左出(也就是先进后出)的的方式。为什么采用这种方式而不用左进右出（也就是先进先出）的方式。看下面例子，假如凭证的的有效期是3分钟，接下来有“no1”，“no2”,&quot;no3&quot;,&quot;no4&quot;,&quot;no5&quot;个凭证每一个凭证的过期时间是 1，2，3，4，5。假设系统是理想的情况下3秒钟处理完一个支付，但是现在在2分59秒钟来了一个请求，&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;如果先去获取先进来的哪个凭证“no1”,此时它的过期时间还剩下1秒，但是系统的处理时间是3秒，这样的话会在系统处理的过程中凭证失效了，这样会引起一些问题。&lt;/p&gt;&lt;p&gt;但是如果先去获取后进来的哪个，这个时候它的过期时间是5秒，系统可以处理完，所以说从左边出来是为了最大限度的保证凭证被消费。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="qJ08ZY0-j0J5e2I6gDsd-110">
+          <mxGeometry width="709" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-103" value="请求 2：59" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="qJ08ZY0-j0J5e2I6gDsd-110">
+          <mxGeometry x="99" y="200" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-104" value="“no5”" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="qJ08ZY0-j0J5e2I6gDsd-110">
+          <mxGeometry x="239" y="200" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-105" value="“no3”" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="qJ08ZY0-j0J5e2I6gDsd-110">
+          <mxGeometry x="379" y="200" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-106" value="“no4”" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="qJ08ZY0-j0J5e2I6gDsd-110">
+          <mxGeometry x="309" y="200" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-108" value="“no2”" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="qJ08ZY0-j0J5e2I6gDsd-110">
+          <mxGeometry x="449" y="200" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-109" value="“no1”" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="qJ08ZY0-j0J5e2I6gDsd-110">
+          <mxGeometry x="519" y="200" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-112" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1290" y="280" width="709" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-114" value="请求 2：59" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="qJ08ZY0-j0J5e2I6gDsd-112">
+          <mxGeometry x="99" y="200" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-115" value="“no5”" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="qJ08ZY0-j0J5e2I6gDsd-112">
+          <mxGeometry x="239" y="200" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-116" value="“no3”" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="qJ08ZY0-j0J5e2I6gDsd-112">
+          <mxGeometry x="379" y="200" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-117" value="“no4”" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="qJ08ZY0-j0J5e2I6gDsd-112">
+          <mxGeometry x="309" y="200" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-118" value="“no2”" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="qJ08ZY0-j0J5e2I6gDsd-112">
+          <mxGeometry x="449" y="200" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-119" value="“no1”" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="qJ08ZY0-j0J5e2I6gDsd-112">
+          <mxGeometry x="519" y="200" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-120" value="&lt;h1&gt;订单推送时候Token过期，产生Token刷新问题&lt;/h1&gt;&lt;div&gt;发送订单的时候需要携带Token，如果这个Token是一个超时的运营商是不会收取的，并且Token的更新需要花钱。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="-10" width="580" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-122" value="&lt;h1&gt;三方下游&lt;/h1&gt;&lt;div&gt;下游会主动去调用我们的配单系统，调用完成以后再给配单一个回调，&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1409" y="870" width="190" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
