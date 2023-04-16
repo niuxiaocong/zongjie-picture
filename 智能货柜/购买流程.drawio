@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-14T16:47:52.339Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="6q3lVqBBRQtyi0dxT3Q3" version="21.1.7" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-04-16T14:50:43.582Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="524QFUtaIa9JMRH8xh5b" version="21.1.7" type="github" pages="3">
   <diagram name="梳理" id="RkDC4rOG-JaYH36t-Z6l">
     <mxGraphModel dx="1877" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -705,7 +705,7 @@
         <mxCell id="wvqYO3dV8kKgbjnCDc3z-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="HorOav6JXJ3nXyEydsOB-1" source="wvqYO3dV8kKgbjnCDc3z-61" target="wvqYO3dV8kKgbjnCDc3z-62" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wvqYO3dV8kKgbjnCDc3z-165" value="优惠券分成两种：现金券和团购券&lt;br&gt;现金券：例如我有5快的现金券，买两瓶可乐6快，这个时候我可以拿现金券去抵扣，这个时候只需要付块1快就行。&lt;br&gt;我们可以将现金券和商品进行绑定，比如就买可乐的时候可以用，买其他商品的时候不能用现金券&lt;br&gt;团购券：比如我给你发了两瓶可乐的团购券，那么我可以拿着这团购券去拿两瓶可乐，和钱无关了。&lt;br&gt;现金券可以不指定商品Id，可以是一个全类券，而我们的团购券必须指定商品Id 。" style="rounded=0;whiteSpace=wrap;html=1;" parent="HorOav6JXJ3nXyEydsOB-1" vertex="1">
+        <mxCell id="wvqYO3dV8kKgbjnCDc3z-165" value="优惠券分成两种：现金券和团购券&lt;br&gt;现金券：例如我有5快的现金券，买两瓶可乐6快，这个时候我可以拿现金券去抵扣，这个时候只需要付块1快就行。&lt;br&gt;我们可以将现金券和商品进行绑定，比如就买可乐的时候可以用，买其他商品的时候不能用现金券&lt;br&gt;团购券：比如我给你发了两瓶可乐的团购券，那么我可以拿着这团购券去拿两瓶可乐，和钱无关了。&lt;br&gt;现金券可以不指定商品Id，可以是一个全类券，而我们的团购券必须指定商品Id 。" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="HorOav6JXJ3nXyEydsOB-1" vertex="1">
           <mxGeometry x="400" y="40" width="310" height="130" as="geometry" />
         </mxCell>
         <mxCell id="Bc4W90uUfuhKhIyjgaUk-1" value="主动上报锁的变化&lt;br&gt;开门变成关门才会发送这一条&lt;br&gt;关门变成开门不会发送这个信息" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -721,7 +721,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="1c_yCHVCLt2tidzGoF5k" name="一些题目和项目细节">
-    <mxGraphModel dx="278" dy="578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="673" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -822,7 +822,7 @@
           <mxGeometry x="3308" y="430" width="684" height="503" as="geometry" />
         </mxCell>
         <mxCell id="wX0_9VdwSp3FYLBanD05-47" value="&lt;font color=&quot;#ff3333&quot; style=&quot;font-size: 15px;&quot;&gt;问题9：设备是怎么和服务保持心跳连接的&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1671" y="1200" width="399" height="50" as="geometry" />
+          <mxGeometry x="1671" y="1160" width="399" height="50" as="geometry" />
         </mxCell>
         <mxCell id="enRor8HvP_-ysP1p0X_b-1" value="疑问：如果Redis中设置的key过期时间是30s，而货柜发送心跳的时间是35秒，那么每次检测的时候货柜岂不是每次都被下线？" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="827" y="2520" width="360" height="60" as="geometry" />
@@ -836,8 +836,8 @@
         <mxCell id="enRor8HvP_-ysP1p0X_b-3" value="设备编号&lt;br&gt;设备状态&lt;br&gt;最后一次收到心跳时间&lt;br&gt;存通信服务的Hash表" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;align=left;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="2280" y="960" width="120" height="105" as="geometry" />
         </mxCell>
-        <mxCell id="xFjLnby068UhqPa3IcHp-1" value="&lt;font color=&quot;#ff3333&quot; style=&quot;font-size: 15px;&quot;&gt;问题10：你们的购买流程是什么样子的。&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1654" y="1950" width="399" height="50" as="geometry" />
+        <mxCell id="xFjLnby068UhqPa3IcHp-1" value="&lt;font color=&quot;#ff3333&quot; style=&quot;font-size: 15px;&quot;&gt;问题：购买流程&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1441" y="1950" width="399" height="50" as="geometry" />
         </mxCell>
         <mxCell id="xFjLnby068UhqPa3IcHp-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;" parent="1" source="xFjLnby068UhqPa3IcHp-2" target="xFjLnby068UhqPa3IcHp-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -887,7 +887,7 @@
         <mxCell id="xFjLnby068UhqPa3IcHp-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="xFjLnby068UhqPa3IcHp-24" target="xFjLnby068UhqPa3IcHp-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xFjLnby068UhqPa3IcHp-24" value="保存订单，此时的订单状态是一个未授权，仓门的状态为未打开，支付状态为未支付" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;" parent="1" vertex="1">
+        <mxCell id="xFjLnby068UhqPa3IcHp-24" value="保存订单，此时的订单状态是一个未授&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;权，仓门的状态为未打开，支付状态为未支付" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="1761.5" y="2550" width="121.5" height="70" as="geometry" />
         </mxCell>
         <mxCell id="xFjLnby068UhqPa3IcHp-26" value="首先生成订单，然后保存，之后微信或者支付宝会根据订单号生成一个预授权订单" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;labelBackgroundColor=none;" parent="1" vertex="1">
@@ -1243,13 +1243,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="uhawdk3uFDL84s5SlYEq-12" value="不处理？TODO" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="3140" y="3610" width="80" height="56" as="geometry" />
+          <mxGeometry x="3040" y="3640" width="80" height="56" as="geometry" />
         </mxCell>
         <mxCell id="uhawdk3uFDL84s5SlYEq-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="uhawdk3uFDL84s5SlYEq-5" target="uhawdk3uFDL84s5SlYEq-12" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="3180" y="3470" />
-              <mxPoint x="3180" y="3600" />
+              <mxPoint x="3080" y="3470" />
+              <mxPoint x="3080" y="3625" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1491,7 +1491,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9O8hXpSkDoCScB4vGClQ-9" value="获取缓存中最后一次重量" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2950" y="5470" width="120" height="60" as="geometry" />
+          <mxGeometry x="2950" y="5430" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9O8hXpSkDoCScB4vGClQ-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=190;entryDy=45;entryPerimeter=0;" edge="1" parent="1" source="9O8hXpSkDoCScB4vGClQ-11" target="9O8hXpSkDoCScB4vGClQ-19">
           <mxGeometry relative="1" as="geometry" />
@@ -1518,33 +1518,36 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9O8hXpSkDoCScB4vGClQ-23" value="如果最后一次重量时间小于当前时间证明货柜的重量还是关门之前的重量" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2950" y="5590" width="120" height="60" as="geometry" />
+          <mxGeometry x="2950" y="5530" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9O8hXpSkDoCScB4vGClQ-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9O8hXpSkDoCScB4vGClQ-25" target="9O8hXpSkDoCScB4vGClQ-27">
+        <mxCell id="pCn45mk3MQl9_uwNoHtN-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9O8hXpSkDoCScB4vGClQ-25" target="9O8hXpSkDoCScB4vGClQ-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9O8hXpSkDoCScB4vGClQ-25" value="while(true){&lt;br&gt;//等待2s&lt;br&gt;}" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2950" y="5710" width="120" height="60" as="geometry" />
+          <mxGeometry x="2950" y="5640" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9O8hXpSkDoCScB4vGClQ-29" value="不稳定" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9O8hXpSkDoCScB4vGClQ-27" target="9O8hXpSkDoCScB4vGClQ-25">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="9O8hXpSkDoCScB4vGClQ-29" value="不稳定" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="9O8hXpSkDoCScB4vGClQ-27">
+          <mxGeometry x="0.0977" y="2" relative="1" as="geometry">
+            <mxPoint x="2952" y="5680" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="2900" y="5880" />
-              <mxPoint x="2900" y="5740" />
+              <mxPoint x="2902" y="5794" />
+              <mxPoint x="2902" y="5670" />
+              <mxPoint x="2952" y="5670" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9O8hXpSkDoCScB4vGClQ-32" value="稳定" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9O8hXpSkDoCScB4vGClQ-27" target="9O8hXpSkDoCScB4vGClQ-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9O8hXpSkDoCScB4vGClQ-27" value="货柜的重量是否稳定" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="2930" y="5840" width="160" height="80" as="geometry" />
+          <mxGeometry x="2930" y="5754" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="9O8hXpSkDoCScB4vGClQ-30" value="需要保证缓存里面的重量一定是关门后的重量" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;base=15;" vertex="1" parent="1">
-          <mxGeometry x="2610" y="5700" width="190" height="120" as="geometry" />
+          <mxGeometry x="2620" y="5670" width="190" height="120" as="geometry" />
         </mxCell>
         <mxCell id="9O8hXpSkDoCScB4vGClQ-31" value="取出缓存中最后一次重量" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="3190" y="5850" width="120" height="60" as="geometry" />
+          <mxGeometry x="3188" y="5764" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9O8hXpSkDoCScB4vGClQ-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.425;entryY=-0.027;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9O8hXpSkDoCScB4vGClQ-33" target="9O8hXpSkDoCScB4vGClQ-9">
           <mxGeometry relative="1" as="geometry" />
@@ -1553,7 +1556,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9O8hXpSkDoCScB4vGClQ-33" value="等待0.6s" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2941" y="5350" width="120" height="60" as="geometry" />
+          <mxGeometry x="2941" y="5330" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9O8hXpSkDoCScB4vGClQ-39" value="等待0.6秒的原因是，设备关门以后的后8秒钟是每次300毫秒发送一次重量，目的就是为了获取到一个稳定的重量，这样就可以避免执行后面的while（）逻辑节省等待时间" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="1">
           <mxGeometry x="2630" y="5250" width="190" height="120" as="geometry" />
@@ -1588,7 +1591,7 @@
         <mxCell id="9O8hXpSkDoCScB4vGClQ-47" value="组织数据给账户服务去结单" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="1">
           <mxGeometry x="1949" y="5410" width="190" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="9O8hXpSkDoCScB4vGClQ-49" value="清除缓存" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="1">
+        <mxCell id="9O8hXpSkDoCScB4vGClQ-49" value="清除缓存" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
           <mxGeometry x="1943" y="5580" width="190" height="120" as="geometry" />
         </mxCell>
         <mxCell id="9O8hXpSkDoCScB4vGClQ-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9O8hXpSkDoCScB4vGClQ-51" target="9O8hXpSkDoCScB4vGClQ-53">
@@ -1614,7 +1617,7 @@
         <mxCell id="9O8hXpSkDoCScB4vGClQ-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9O8hXpSkDoCScB4vGClQ-55" target="9O8hXpSkDoCScB4vGClQ-59">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9O8hXpSkDoCScB4vGClQ-55" value="发送补货消息" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="9O8hXpSkDoCScB4vGClQ-55" value="发送补货消息(事务型消息)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2340" y="5883" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Hag4l5jsIZCh1jKCCcyY-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9O8hXpSkDoCScB4vGClQ-57" target="9O8hXpSkDoCScB4vGClQ-65">
@@ -1752,7 +1755,7 @@
           <mxGeometry x="2750" y="6540" width="160" height="210" as="geometry" />
         </mxCell>
         <mxCell id="Hag4l5jsIZCh1jKCCcyY-36" value="为了处理幂等性，兜底" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="1">
-          <mxGeometry x="2970" y="6610" width="140" height="70" as="geometry" />
+          <mxGeometry x="2980" y="6610" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Hag4l5jsIZCh1jKCCcyY-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Hag4l5jsIZCh1jKCCcyY-41" target="9O8hXpSkDoCScB4vGClQ-51">
           <mxGeometry relative="1" as="geometry" />
