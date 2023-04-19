@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-19T10:27:40.357Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="JI2gn6GB8IAlkxANBNHu" version="21.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-19T11:35:10.137Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="-QocGbFMFkDDimaqP8zV" version="21.1.7" type="github">
   <diagram name="第 1 页" id="uLm2FXyUYoYFo3uHgV7U">
     <mxGraphModel dx="2704" dy="1718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -190,7 +190,7 @@
         <mxCell id="qJ08ZY0-j0J5e2I6gDsd-81" value="&lt;h1&gt;Redis&lt;/h1&gt;&lt;div&gt;订单采用Redis中的Set结构进行保存，为了防止出现重复的订单。&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="637" y="490" width="190" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-94" value="&lt;h1&gt;死锁问题&lt;/h1&gt;&lt;p&gt;1、推单系统处理配单系统成功回调的订单状态&lt;/p&gt;&lt;p&gt;2、通知上游回调成功以后，推单系统从Redis中拉取订单然后修改状态&lt;/p&gt;&lt;p&gt;3、因为是异步回调，所以会产生死锁问题。&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;font style=&quot;font-size: 26px;&quot;&gt;如何解决&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;1、将所有订单可以采取一个排序的方式来处理，但是这里没有采用这种方式，因为这种方式如果以后的业务进行扩展，扩展的业务又需要进行排序，对代码的侵入性很强。&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;2、在这里采用了分表的方式，单独存放某一部分的数据，这样就不会产生死锁，并且对代码的也没有很强的侵入性。&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-94" value="&lt;h1&gt;死锁问题&lt;/h1&gt;&lt;p&gt;1、推单系统处理配单系统成功回调的订单状态&lt;/p&gt;&lt;p&gt;2、通知上游回调成功以后，推单系统从Redis中拉取订单然后修改状态&lt;/p&gt;&lt;p&gt;3、因为是异步回调，所以会产生死锁问题。&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;font style=&quot;font-size: 26px;&quot;&gt;如何解决&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="290" y="220" width="270" height="310" as="geometry" />
         </mxCell>
         <mxCell id="-pIriCkgyuHUq5zg52J8-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qJ08ZY0-j0J5e2I6gDsd-95" target="qJ08ZY0-j0J5e2I6gDsd-52">
@@ -214,7 +214,7 @@
           <mxGeometry x="-190" y="440" width="190" height="120" as="geometry" />
         </mxCell>
         <mxCell id="qJ08ZY0-j0J5e2I6gDsd-100" value="&lt;h1&gt;推单系统&lt;/h1&gt;&lt;p&gt;推单系统通过一个异步线程从Redis中拉取结果。&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="414" y="530" width="190" height="120" as="geometry" />
+          <mxGeometry x="60" y="350" width="190" height="120" as="geometry" />
         </mxCell>
         <mxCell id="qJ08ZY0-j0J5e2I6gDsd-110" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="1260" y="270" width="709" height="370" as="geometry" />
