@@ -1,39 +1,50 @@
-<mxfile host="app.diagrams.net" modified="2023-04-13T05:39:09.730Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="MrvVP0c7dEBUS1OB6ORH" version="21.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-19T10:27:40.357Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="JI2gn6GB8IAlkxANBNHu" version="21.1.7" type="github">
   <diagram name="第 1 页" id="uLm2FXyUYoYFo3uHgV7U">
     <mxGraphModel dx="2704" dy="1718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qJ08ZY0-j0J5e2I6gDsd-43" target="qJ08ZY0-j0J5e2I6gDsd-52">
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="qJ08ZY0-j0J5e2I6gDsd-43" target="qJ08ZY0-j0J5e2I6gDsd-52" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-43" value="上游（pdd，淘宝、天猫）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="-pIriCkgyuHUq5zg52J8-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qJ08ZY0-j0J5e2I6gDsd-43" target="qJ08ZY0-j0J5e2I6gDsd-96">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-90" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-43" value="上游（pdd，淘宝、天猫）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-150" y="750" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qJ08ZY0-j0J5e2I6gDsd-52" target="qJ08ZY0-j0J5e2I6gDsd-77">
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="qJ08ZY0-j0J5e2I6gDsd-52" target="qJ08ZY0-j0J5e2I6gDsd-77" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-123" value="订单支付成功以后开始回调" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qJ08ZY0-j0J5e2I6gDsd-52" target="qJ08ZY0-j0J5e2I6gDsd-96">
-          <mxGeometry x="0.1795" relative="1" as="geometry">
+        <mxCell id="-pIriCkgyuHUq5zg52J8-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.443;entryY=1.011;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qJ08ZY0-j0J5e2I6gDsd-52" target="qJ08ZY0-j0J5e2I6gDsd-43">
+          <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="520" y="480" />
-              <mxPoint x="130" y="480" />
+              <mxPoint x="510" y="920" />
+              <mxPoint x="-97" y="920" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-pIriCkgyuHUq5zg52J8-8" value="支付成功以后开始回调" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-pIriCkgyuHUq5zg52J8-7">
+          <mxGeometry x="0.0813" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-52" value="推单系统（收到上游派过来的订单然后落库）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-52" value="推单系统（收到上游派过来的订单然后落库）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="460" y="750" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qJ08ZY0-j0J5e2I6gDsd-54" target="qJ08ZY0-j0J5e2I6gDsd-56">
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="qJ08ZY0-j0J5e2I6gDsd-54" target="qJ08ZY0-j0J5e2I6gDsd-56" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-101" value="支付凭证" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qJ08ZY0-j0J5e2I6gDsd-57">
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-101" value="支付凭证" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="qJ08ZY0-j0J5e2I6gDsd-57" vertex="1" connectable="0">
           <mxGeometry x="-0.1132" y="-1" relative="1" as="geometry">
             <mxPoint x="-41" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.442;entryY=1.057;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qJ08ZY0-j0J5e2I6gDsd-54" target="qJ08ZY0-j0J5e2I6gDsd-52">
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.442;entryY=1.057;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="qJ08ZY0-j0J5e2I6gDsd-54" target="qJ08ZY0-j0J5e2I6gDsd-52" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1060" y="960" />
@@ -41,21 +52,21 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-85" value="订单支付成功以后开始回调" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qJ08ZY0-j0J5e2I6gDsd-84">
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-85" value="订单支付成功以后开始回调" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="qJ08ZY0-j0J5e2I6gDsd-84" vertex="1" connectable="0">
           <mxGeometry x="-0.0383" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-137" value="将订单存入&lt;br&gt;到Redis" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.145;entryY=1;entryDx=0;entryDy=-4.35;entryPerimeter=0;" edge="1" parent="1" target="qJ08ZY0-j0J5e2I6gDsd-60">
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-137" value="将订单存入&lt;br&gt;到Redis" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.145;entryY=1;entryDx=0;entryDy=-4.35;entryPerimeter=0;" parent="1" target="qJ08ZY0-j0J5e2I6gDsd-60" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1037" y="700" as="targetPoint" />
             <mxPoint x="1037" y="750" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-54" value="配单系统（收到推单的订单，落库）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-54" value="配单系统（收到推单的订单，落库）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1000" y="750" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="qJ08ZY0-j0J5e2I6gDsd-56" target="qJ08ZY0-j0J5e2I6gDsd-54">
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="qJ08ZY0-j0J5e2I6gDsd-56" target="qJ08ZY0-j0J5e2I6gDsd-54" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1310" y="1010" />
@@ -63,30 +74,30 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-76" value="订单支付成功以后开始回调" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qJ08ZY0-j0J5e2I6gDsd-75">
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-76" value="订单支付成功以后开始回调" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="qJ08ZY0-j0J5e2I6gDsd-75" vertex="1" connectable="0">
           <mxGeometry x="-0.2112" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=-15;entryPerimeter=0;" edge="1" parent="1" source="qJ08ZY0-j0J5e2I6gDsd-56" target="qJ08ZY0-j0J5e2I6gDsd-60">
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=-15;entryPerimeter=0;" parent="1" source="qJ08ZY0-j0J5e2I6gDsd-56" target="qJ08ZY0-j0J5e2I6gDsd-60" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1320" y="685" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-56" value="下游（三方支付系统）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-56" value="下游（三方支付系统）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1250" y="890" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qJ08ZY0-j0J5e2I6gDsd-58" target="qJ08ZY0-j0J5e2I6gDsd-62">
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="qJ08ZY0-j0J5e2I6gDsd-58" target="qJ08ZY0-j0J5e2I6gDsd-62" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-74" value="去调用运营支付商接&lt;br&gt;口拿到支付凭证" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qJ08ZY0-j0J5e2I6gDsd-69">
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-74" value="去调用运营支付商接&lt;br&gt;口拿到支付凭证" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="qJ08ZY0-j0J5e2I6gDsd-69" vertex="1" connectable="0">
           <mxGeometry x="0.265" y="-1" relative="1" as="geometry">
             <mxPoint x="-1" y="6" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-72" value="返回支付凭证，&lt;br&gt;保存到Redis" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qJ08ZY0-j0J5e2I6gDsd-58" target="qJ08ZY0-j0J5e2I6gDsd-60">
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-72" value="返回支付凭证，&lt;br&gt;保存到Redis" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="qJ08ZY0-j0J5e2I6gDsd-58" target="qJ08ZY0-j0J5e2I6gDsd-60" edge="1">
           <mxGeometry x="-0.1304" y="20" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1170" y="510" />
@@ -95,45 +106,45 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qJ08ZY0-j0J5e2I6gDsd-58">
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="qJ08ZY0-j0J5e2I6gDsd-58" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="830" y="120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-58" value="订单推送服务" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-58" value="订单推送服务" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="1000" y="480" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-70" value="订单推送服务定时&lt;br&gt;拉取Redis中的订单" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qJ08ZY0-j0J5e2I6gDsd-60" target="qJ08ZY0-j0J5e2I6gDsd-58">
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-70" value="订单推送服务定时&lt;br&gt;拉取Redis中的订单" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="qJ08ZY0-j0J5e2I6gDsd-60" target="qJ08ZY0-j0J5e2I6gDsd-58" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-60" value="Redis" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-60" value="Redis" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="1025" y="639" width="70" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-62" value="运营支付商" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-62" value="运营支付商" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1000" y="290" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-73" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-73" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry y="-820" width="720" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-1" value="上游（PDD、淘宝）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="qJ08ZY0-j0J5e2I6gDsd-73">
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-1" value="上游（PDD、淘宝）" style="rounded=0;whiteSpace=wrap;html=1;" parent="qJ08ZY0-j0J5e2I6gDsd-73" vertex="1">
           <mxGeometry y="150" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-2" value="推单服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="qJ08ZY0-j0J5e2I6gDsd-73">
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-2" value="推单服务" style="rounded=0;whiteSpace=wrap;html=1;" parent="qJ08ZY0-j0J5e2I6gDsd-73" vertex="1">
           <mxGeometry x="200" y="150" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="qJ08ZY0-j0J5e2I6gDsd-73" source="qJ08ZY0-j0J5e2I6gDsd-1" target="qJ08ZY0-j0J5e2I6gDsd-2">
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="qJ08ZY0-j0J5e2I6gDsd-73" source="qJ08ZY0-j0J5e2I6gDsd-1" target="qJ08ZY0-j0J5e2I6gDsd-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-3" value="最初" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" vertex="1" parent="qJ08ZY0-j0J5e2I6gDsd-73">
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-3" value="最初" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" parent="qJ08ZY0-j0J5e2I6gDsd-73" vertex="1">
           <mxGeometry width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-6" value="配单服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="qJ08ZY0-j0J5e2I6gDsd-73">
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-6" value="配单服务" style="rounded=0;whiteSpace=wrap;html=1;" parent="qJ08ZY0-j0J5e2I6gDsd-73" vertex="1">
           <mxGeometry x="400" y="150" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="qJ08ZY0-j0J5e2I6gDsd-73" source="qJ08ZY0-j0J5e2I6gDsd-2" target="qJ08ZY0-j0J5e2I6gDsd-6">
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="qJ08ZY0-j0J5e2I6gDsd-73" source="qJ08ZY0-j0J5e2I6gDsd-2" target="qJ08ZY0-j0J5e2I6gDsd-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="qJ08ZY0-j0J5e2I6gDsd-73">
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="qJ08ZY0-j0J5e2I6gDsd-73" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="665" y="210" as="sourcePoint" />
             <mxPoint x="465" y="210" as="targetPoint" />
@@ -143,19 +154,19 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-8" value="下游（三方支付模块）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="qJ08ZY0-j0J5e2I6gDsd-73">
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-8" value="下游（三方支付模块）" style="rounded=0;whiteSpace=wrap;html=1;" parent="qJ08ZY0-j0J5e2I6gDsd-73" vertex="1">
           <mxGeometry x="600" y="150" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="qJ08ZY0-j0J5e2I6gDsd-73" source="qJ08ZY0-j0J5e2I6gDsd-6" target="qJ08ZY0-j0J5e2I6gDsd-8">
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="qJ08ZY0-j0J5e2I6gDsd-73" source="qJ08ZY0-j0J5e2I6gDsd-6" target="qJ08ZY0-j0J5e2I6gDsd-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-10" value="运营商" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="qJ08ZY0-j0J5e2I6gDsd-73">
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-10" value="运营商" style="rounded=0;whiteSpace=wrap;html=1;" parent="qJ08ZY0-j0J5e2I6gDsd-73" vertex="1">
           <mxGeometry x="400" y="20" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="qJ08ZY0-j0J5e2I6gDsd-73" source="qJ08ZY0-j0J5e2I6gDsd-6" target="qJ08ZY0-j0J5e2I6gDsd-10">
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="qJ08ZY0-j0J5e2I6gDsd-73" source="qJ08ZY0-j0J5e2I6gDsd-6" target="qJ08ZY0-j0J5e2I6gDsd-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="qJ08ZY0-j0J5e2I6gDsd-73">
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="qJ08ZY0-j0J5e2I6gDsd-73" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="445" y="210" as="sourcePoint" />
             <mxPoint x="245" y="210" as="targetPoint" />
@@ -165,7 +176,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qJ08ZY0-j0J5e2I6gDsd-77" target="qJ08ZY0-j0J5e2I6gDsd-54">
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="qJ08ZY0-j0J5e2I6gDsd-77" target="qJ08ZY0-j0J5e2I6gDsd-54" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="840" y="650" />
@@ -173,80 +184,85 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-77" value="Redis" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-77" value="Redis" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="730" y="620" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-81" value="&lt;h1&gt;Redis&lt;/h1&gt;&lt;div&gt;订单采用Redis中的Set结构进行保存，为了防止出现重复的订单。&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="610" y="490" width="190" height="120" as="geometry" />
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-81" value="&lt;h1&gt;Redis&lt;/h1&gt;&lt;div&gt;订单采用Redis中的Set结构进行保存，为了防止出现重复的订单。&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="637" y="490" width="190" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-94" value="&lt;h1&gt;死锁问题&lt;/h1&gt;&lt;p&gt;1、推单系统处理配单系统成功回调的订单状态&lt;/p&gt;&lt;p&gt;2、通知上游回调成功以后，推单系统从Redis中拉取订单然后修改状态&lt;/p&gt;&lt;p&gt;3、因为是异步回调，所以会产生死锁问题。&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;font style=&quot;font-size: 26px;&quot;&gt;如何解决&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;1、将所有订单可以采取一个排序的方式来处理，但是这里没有采用这种方式，因为这种方式如果以后的业务进行扩展，扩展的业务又需要进行排序，对代码的侵入性很强。&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;2、在这里采用了分表的方式，单独存放某一部分的数据，这样就不会产生死锁，并且对代码的也没有很强的侵入性。&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="80" y="880" width="270" height="310" as="geometry" />
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-94" value="&lt;h1&gt;死锁问题&lt;/h1&gt;&lt;p&gt;1、推单系统处理配单系统成功回调的订单状态&lt;/p&gt;&lt;p&gt;2、通知上游回调成功以后，推单系统从Redis中拉取订单然后修改状态&lt;/p&gt;&lt;p&gt;3、因为是异步回调，所以会产生死锁问题。&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;font style=&quot;font-size: 26px;&quot;&gt;如何解决&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;1、将所有订单可以采取一个排序的方式来处理，但是这里没有采用这种方式，因为这种方式如果以后的业务进行扩展，扩展的业务又需要进行排序，对代码的侵入性很强。&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;2、在这里采用了分表的方式，单独存放某一部分的数据，这样就不会产生死锁，并且对代码的也没有很强的侵入性。&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="290" y="220" width="270" height="310" as="geometry" />
         </mxCell>
-        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qJ08ZY0-j0J5e2I6gDsd-95" target="qJ08ZY0-j0J5e2I6gDsd-43">
+        <mxCell id="-pIriCkgyuHUq5zg52J8-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qJ08ZY0-j0J5e2I6gDsd-95" target="qJ08ZY0-j0J5e2I6gDsd-52">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-95" value="Redis" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="102" y="650" width="56" height="60" as="geometry" />
+        <mxCell id="-pIriCkgyuHUq5zg52J8-6" value="异步拉取" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-pIriCkgyuHUq5zg52J8-5">
+          <mxGeometry x="0.4877" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qJ08ZY0-j0J5e2I6gDsd-96" target="qJ08ZY0-j0J5e2I6gDsd-95">
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-95" value="Redis" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="270" y="590" width="56" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-pIriCkgyuHUq5zg52J8-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qJ08ZY0-j0J5e2I6gDsd-96" target="qJ08ZY0-j0J5e2I6gDsd-95">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-96" value="订单推送服务" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="70" y="550" width="120" height="60" as="geometry" />
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-96" value="订单推送服务" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="40" y="590" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-99" value="&lt;h1&gt;上游&lt;/h1&gt;&lt;div&gt;上游给订单到订单推送服务，然后保存到Redis中&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-190" y="520" width="190" height="120" as="geometry" />
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-99" value="&lt;h1&gt;上游&lt;/h1&gt;&lt;div&gt;上游给订单到订单推送服务，然后保存到Redis中&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-190" y="440" width="190" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-100" value="&lt;h1&gt;推单系统&lt;/h1&gt;&lt;p&gt;推单系统通过一个异步线程从Redis中拉取结果。&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="290" y="265" width="190" height="120" as="geometry" />
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-100" value="&lt;h1&gt;推单系统&lt;/h1&gt;&lt;p&gt;推单系统通过一个异步线程从Redis中拉取结果。&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="414" y="530" width="190" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-110" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-110" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="1260" y="270" width="709" height="370" as="geometry" />
         </mxCell>
-        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-71" value="&lt;h1&gt;List存储结构&lt;/h1&gt;&lt;p&gt;配单系统会将订单采用list结构保存到Redis中，订单推送服务会定时的从Redis中拉取订单的数据，然后取运营支付商中获取支付凭证之后将获取到的支付凭证存回到Redis中。&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;在这里为什么采用了List存储方式&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;在这个场景下list采用了左进左出(也就是先进后出)的的方式。为什么采用这种方式而不用左进右出（也就是先进先出）的方式。看下面例子，假如凭证的的有效期是3分钟，接下来有“no1”，“no2”,&quot;no3&quot;,&quot;no4&quot;,&quot;no5&quot;个凭证每一个凭证的过期时间是 1，2，3，4，5。假设系统是理想的情况下3秒钟处理完一个支付，但是现在在2分59秒钟来了一个请求，&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;如果先去获取先进来的哪个凭证“no1”,此时它的过期时间还剩下1秒，但是系统的处理时间是3秒，这样的话会在系统处理的过程中凭证失效了，这样会引起一些问题。&lt;/p&gt;&lt;p&gt;但是如果先去获取后进来的哪个，这个时候它的过期时间是5秒，系统可以处理完，所以说从左边出来是为了最大限度的保证凭证被消费。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="qJ08ZY0-j0J5e2I6gDsd-110">
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-71" value="&lt;h1&gt;List存储结构&lt;/h1&gt;&lt;p&gt;配单系统会将订单采用list结构保存到Redis中，订单推送服务会定时的从Redis中拉取订单的数据，然后取运营支付商中获取支付凭证之后将获取到的支付凭证存回到Redis中。&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;在这里为什么采用了List存储方式&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;在这个场景下list采用了左进左出(也就是先进后出)的的方式。为什么采用这种方式而不用左进右出（也就是先进先出）的方式。看下面例子，假如凭证的的有效期是3分钟，接下来有“no1”，“no2”,&quot;no3&quot;,&quot;no4&quot;,&quot;no5&quot;个凭证每一个凭证的过期时间是 1，2，3，4，5。假设系统是理想的情况下3秒钟处理完一个支付，但是现在在2分59秒钟来了一个请求，&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;如果先去获取先进来的哪个凭证“no1”,此时它的过期时间还剩下1秒，但是系统的处理时间是3秒，这样的话会在系统处理的过程中凭证失效了，这样会引起一些问题。&lt;/p&gt;&lt;p&gt;但是如果先去获取后进来的哪个，这个时候它的过期时间是5秒，系统可以处理完，所以说从左边出来是为了最大限度的保证凭证被消费。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="qJ08ZY0-j0J5e2I6gDsd-110" vertex="1">
           <mxGeometry width="709" height="370" as="geometry" />
         </mxCell>
-        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-103" value="请求 2：59" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="qJ08ZY0-j0J5e2I6gDsd-110">
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-103" value="请求 2：59" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="qJ08ZY0-j0J5e2I6gDsd-110" vertex="1">
           <mxGeometry x="99" y="200" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-104" value="“no5”" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="qJ08ZY0-j0J5e2I6gDsd-110">
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-104" value="“no5”" style="rounded=0;whiteSpace=wrap;html=1;" parent="qJ08ZY0-j0J5e2I6gDsd-110" vertex="1">
           <mxGeometry x="239" y="200" width="60" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-105" value="“no3”" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="qJ08ZY0-j0J5e2I6gDsd-110">
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-105" value="“no3”" style="rounded=0;whiteSpace=wrap;html=1;" parent="qJ08ZY0-j0J5e2I6gDsd-110" vertex="1">
           <mxGeometry x="379" y="200" width="60" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-106" value="“no4”" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="qJ08ZY0-j0J5e2I6gDsd-110">
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-106" value="“no4”" style="rounded=0;whiteSpace=wrap;html=1;" parent="qJ08ZY0-j0J5e2I6gDsd-110" vertex="1">
           <mxGeometry x="309" y="200" width="60" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-108" value="“no2”" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="qJ08ZY0-j0J5e2I6gDsd-110">
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-108" value="“no2”" style="rounded=0;whiteSpace=wrap;html=1;" parent="qJ08ZY0-j0J5e2I6gDsd-110" vertex="1">
           <mxGeometry x="449" y="200" width="60" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-109" value="“no1”" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="qJ08ZY0-j0J5e2I6gDsd-110">
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-109" value="“no1”" style="rounded=0;whiteSpace=wrap;html=1;" parent="qJ08ZY0-j0J5e2I6gDsd-110" vertex="1">
           <mxGeometry x="519" y="200" width="60" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-120" value="&lt;h1&gt;订单推送时候Token过期，产生Token刷新问题&lt;/h1&gt;&lt;div&gt;发送订单的时候需要携带Token，如果这个Token是一个超时的运营商是不会收取的，并且Token的更新需要花钱。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-120" value="&lt;h1&gt;订单推送时候Token过期，产生Token刷新问题&lt;/h1&gt;&lt;div&gt;发送订单的时候需要携带Token，如果这个Token是一个超时的运营商是不会收取的，并且Token的更新需要花钱。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="220" y="-10" width="580" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-122" value="&lt;h1&gt;三方下游&lt;/h1&gt;&lt;div&gt;下游会主动去调用我们的配单系统，调用完成以后再给配单一个回调，&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-122" value="&lt;h1&gt;三方下游&lt;/h1&gt;&lt;div&gt;下游会主动去调用我们的配单系统，调用完成以后再给配单一个回调，&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1409" y="870" width="190" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-133" value="&lt;h1&gt;项目流程&lt;/h1&gt;&lt;div&gt;项目中的上游就是拼多多、淘宝这种商户，用户在商户那边进行付款以后，会调用我们的内部系统然后把订单同步到我们的推单系统中，在推单这里做好落库保存，然后使用Set结构保存在我们的Redis中。然后通过定时任务去扫描Redis，再把Redis中的订单分配给配单系统 进行落库保存，然后存放到Redis中，然后通过一个推单服务定时去拉取Redis中的数据进行消费也就是去获取运营商的支付凭证，拿到支付凭证以后会将拿到的支付凭证存放到Redis中，然后配单系统拿到支付凭证，再去同步给我们的下游（不同的支付渠道）&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-133" value="&lt;h1&gt;项目流程&lt;/h1&gt;&lt;div&gt;项目中的上游就是拼多多、淘宝这种商户，用户在商户那边进行付款以后，会调用我们的内部系统然后把订单同步到我们的推单系统中，在推单这里做好落库保存，然后使用Set结构保存在我们的Redis中。然后通过定时任务去扫描Redis，再把Redis中的订单分配给配单系统 进行落库保存，然后存放到Redis中，然后通过一个推单服务定时去拉取Redis中的数据进行消费也就是去获取运营商的支付凭证，拿到支付凭证以后会将拿到的支付凭证存放到Redis中，然后配单系统拿到支付凭证，再去同步给我们的下游（不同的支付渠道）&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1040" y="440" width="800" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-134" value="&lt;h1&gt;死锁问题&lt;/h1&gt;&lt;div&gt;因为在进行接口优化，拆成了多线程异步的去跑，又因为多线程异步修改的是同一行数据的不同字段，而且还是批量异步，因为他的顺序不一致性，它就会出现死锁问题&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-134" value="&lt;h1&gt;死锁问题&lt;/h1&gt;&lt;div&gt;因为在进行接口优化，拆成了多线程异步的去跑，又因为多线程异步修改的是同一行数据的不同字段，而且还是批量异步，因为他的顺序不一致性，它就会出现死锁问题&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1040" y="600" width="290" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-135" value="拉取&lt;br&gt;支付凭证" style="endArrow=classic;html=1;rounded=0;exitX=0.855;exitY=1;exitDx=0;exitDy=-4.35;exitPerimeter=0;" edge="1" parent="1">
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-135" value="拉取&lt;br&gt;支付凭证" style="endArrow=classic;html=1;rounded=0;exitX=0.855;exitY=1;exitDx=0;exitDy=-4.35;exitPerimeter=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1093.3000000000002" y="695.6500000000001" as="sourcePoint" />
             <mxPoint x="1092" y="750" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-139" value="&lt;h1&gt;OOM问题&lt;/h1&gt;&lt;div&gt;同步前：在调用三方之前没有做任何的 缓冲、限流处理直接同步的调用，因为偶发的网络抖动，导致的OOM问题。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;同步后：由于线程池的参数配置不合理导致的OOM，例子：核心线程1000，最大线程6000&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;&lt;b&gt;OOM问题排查&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;使用Arthas&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-139" value="&lt;h1&gt;OOM问题&lt;/h1&gt;&lt;div&gt;同步前：在调用三方之前没有做任何的 缓冲、限流处理直接同步的调用，因为偶发的网络抖动，导致的OOM问题。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;同步后：由于线程池的参数配置不合理导致的OOM，例子：核心线程1000，最大线程6000&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;&lt;b&gt;OOM问题排查&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;使用Arthas&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1090" y="20" width="270" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-140" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.35;exitY=1.004;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="qJ08ZY0-j0J5e2I6gDsd-139">
+        <mxCell id="qJ08ZY0-j0J5e2I6gDsd-140" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.35;exitY=1.004;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="qJ08ZY0-j0J5e2I6gDsd-139" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1180" y="290" as="sourcePoint" />
             <mxPoint x="1070" y="450" as="targetPoint" />
