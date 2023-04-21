@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-16T14:50:43.582Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="524QFUtaIa9JMRH8xh5b" version="21.1.7" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-04-21T14:57:55.858Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="wSrWqxJrKgYyjNP-QAZU" version="21.1.7" type="github" pages="3">
   <diagram name="梳理" id="RkDC4rOG-JaYH36t-Z6l">
     <mxGraphModel dx="1877" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1421,8 +1421,8 @@
         <mxCell id="wIKmtyjI-Jr8FrFr26vh-27" value="解释：现金券和团购券都可以指定商品，如果配置指定商品，那么就只能在指定商品下使用优惠券。现金券一次就只能使用一张，团购券可以使用多张，按照快过期的优先使用，首先使用团购券，在使用现金券" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;align=left;" parent="wIKmtyjI-Jr8FrFr26vh-28" vertex="1">
           <mxGeometry y="60" width="220" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="NO8YSSTQp8X5godNBabP-2" value="&lt;h1&gt;设备登录过程&lt;/h1&gt;&lt;div&gt;货柜设备开机，建立长连接，携带设备的id到通信服务，通信服务负责解析设备的id，解析完成以后设备登录成功，然后设备进行初始化，初始化货柜的状态、重量、商品等信息，初始化完成以后将设备的信息保存到数据库（设备编号、设备状态等），然后在redis的缓存中保存设备编号，设备状态，最后一次收到心跳的时间，还有当前设备在那一台通信服务上。&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1460" y="700" width="328" height="170" as="geometry" />
+        <mxCell id="NO8YSSTQp8X5godNBabP-2" value="&lt;h1&gt;设备登录过程&lt;/h1&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;货柜设备开机，建立长连接，携带设备的id到通信服务，通信服务负责解析设备的id，解析完成以后设备登录成功，然后设备进行初始化，初始化货柜的状态、重量、商品等信息，初始化完成以后将设备的信息保存到数据库（设备编号、设备状态等），然后在redis的缓存中保存设备编号，设备状态，最后一次收到心跳的时间，还有当前设备在那一台通信服务上。&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1540" y="700" width="328" height="290" as="geometry" />
         </mxCell>
         <mxCell id="_hSdgO2O0TCDkahUB5Le-14" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="2056" y="270" width="388" height="190" as="geometry" />
