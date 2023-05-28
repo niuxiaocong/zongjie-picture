@@ -1,6 +1,60 @@
-<mxfile host="app.diagrams.net" modified="2023-05-27T12:10:50.108Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="21.3.3" etag="35MS1jnAaP1frLjYZXFs" type="github">
-  <diagram name="第 1 页" id="39_APPAiOw8bz9AKteXl">
-    <mxGraphModel>
+<mxfile host="app.diagrams.net" modified="2023-05-28T06:54:42.829Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="oitAoak-cQAGTZuns7vg" version="21.3.3" type="github" pages="4">
+  <diagram name="PMS-商品分类" id="39_APPAiOw8bz9AKteXl">
+    <mxGraphModel dx="1105" dy="1747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hIbkvllS98ZsWtY81FQt-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hIbkvllS98ZsWtY81FQt-1" target="hIbkvllS98ZsWtY81FQt-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hIbkvllS98ZsWtY81FQt-1" value="pms_product_category&lt;br&gt;产品分类" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="19" y="240" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hIbkvllS98ZsWtY81FQt-2" value="pms_product_category_attribute_relation&lt;br&gt;产品分类和属性关联表" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="263" y="240" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hIbkvllS98ZsWtY81FQt-4" value="pms_product_attribute&lt;br&gt;产品属性" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="599" y="80" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hIbkvllS98ZsWtY81FQt-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hIbkvllS98ZsWtY81FQt-5" target="hIbkvllS98ZsWtY81FQt-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hIbkvllS98ZsWtY81FQt-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.594;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hIbkvllS98ZsWtY81FQt-5" target="hIbkvllS98ZsWtY81FQt-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hIbkvllS98ZsWtY81FQt-5" value="pms_product_attribute_category&lt;br&gt;产品分类属性" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="579" y="240" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hIbkvllS98ZsWtY81FQt-9" value="多" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="179" y="240" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hIbkvllS98ZsWtY81FQt-10" value="多" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="509" y="240" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hIbkvllS98ZsWtY81FQt-12" value="&lt;h1&gt;商品分类操作&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" width="190" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="B3GQFF1nsAJ64vcqgbeN" name="第 2 页">
+    <mxGraphModel dx="1050" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="btRLH8DJUW3DWAOsF6II" name="第 3 页">
+    <mxGraphModel dx="1050" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="puOFhP4ZV_LL_MLfkZ5R" name="第 4 页">
+    <mxGraphModel dx="1050" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
