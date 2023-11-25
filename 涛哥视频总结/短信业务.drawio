@@ -1,23 +1,23 @@
-<mxfile host="app.diagrams.net" modified="2023-11-25T17:39:34.246Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="0B3mi0vwAQwZIiYo--Qa" version="22.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-25T17:40:45.949Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="bfLdSAcNV8rLdnnnkWyd" version="22.1.4" type="github">
   <diagram name="第 1 页" id="_qX5vx0WwaKs6z4QW6X0">
-    <mxGraphModel dx="1050" dy="493" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1909" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="xJZYCLzQnUPLsRXWI5wK-3" value="api&lt;br&gt;SmsSendRegisterController" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="200" y="280" width="240" height="300" as="geometry" />
+          <mxGeometry x="326" y="280" width="240" height="638.7096774193548" as="geometry" />
         </mxCell>
         <mxCell id="xJZYCLzQnUPLsRXWI5wK-18" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
-          <mxGeometry x="40" y="280" width="20" height="300" as="geometry" />
+          <mxGeometry x="166" y="280" width="20" height="638.7096774193548" as="geometry" />
         </mxCell>
         <mxCell id="xJZYCLzQnUPLsRXWI5wK-19" value="module&lt;br&gt;VerifyCodeServer" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="600" y="280" width="200" height="300" as="geometry" />
+          <mxGeometry x="726" y="280" width="200" height="660" as="geometry" />
         </mxCell>
         <mxCell id="xJZYCLzQnUPLsRXWI5wK-20" value="腾讯云" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="1250" y="285" width="120" height="300" as="geometry" />
+          <mxGeometry x="1376" y="290.64516129032256" width="120" height="638.7096774193548" as="geometry" />
         </mxCell>
         <mxCell id="xJZYCLzQnUPLsRXWI5wK-21" value="module&lt;br&gt;SmsServer" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="960" y="285" width="120" height="300" as="geometry" />
+          <mxGeometry x="1086" y="290.64516129032256" width="120" height="638.7096774193548" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
