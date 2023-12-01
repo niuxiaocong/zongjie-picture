@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-01T03:16:19.234Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="BT9FpQCPh37hAE5TxTZl" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-01T03:17:34.451Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="d-g3WXWisCPjYN8SCmTN" version="22.1.5" type="github">
   <diagram name="第 1 页" id="_qX5vx0WwaKs6z4QW6X0">
     <mxGraphModel dx="1050" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,7 +8,7 @@
           <mxGeometry x="326" y="280" width="240" height="960" as="geometry" />
         </mxCell>
         <mxCell id="pcIeQBHsXcDPj8eYiK2b-9" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="xJZYCLzQnUPLsRXWI5wK-3">
-          <mxGeometry x="115" y="75" width="10" height="65" as="geometry" />
+          <mxGeometry x="115" y="75" width="10" height="105" as="geometry" />
         </mxCell>
         <mxCell id="pcIeQBHsXcDPj8eYiK2b-44" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="xJZYCLzQnUPLsRXWI5wK-3">
           <mxGeometry x="115" y="721" width="10" height="39" as="geometry" />
@@ -149,6 +149,9 @@
             <mxPoint x="440" y="400" as="sourcePoint" />
             <mxPoint x="181" y="400" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="pcIeQBHsXcDPj8eYiK2b-56" value="设置用户id、iso、业务类型、ip" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="454" y="423" width="116" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
