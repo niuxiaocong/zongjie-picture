@@ -1,23 +1,89 @@
-<mxfile host="app.diagrams.net" modified="2023-11-25T17:40:45.949Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="bfLdSAcNV8rLdnnnkWyd" version="22.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-01T02:53:05.570Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="vGGx6sj6lvGaO3dMEOh7" version="22.1.5" type="github">
   <diagram name="第 1 页" id="_qX5vx0WwaKs6z4QW6X0">
-    <mxGraphModel dx="1909" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1050" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="xJZYCLzQnUPLsRXWI5wK-3" value="api&lt;br&gt;SmsSendRegisterController" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+        <mxCell id="xJZYCLzQnUPLsRXWI5wK-3" value="api&lt;br&gt;SmsSendRegisterController" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="326" y="280" width="240" height="638.7096774193548" as="geometry" />
         </mxCell>
-        <mxCell id="xJZYCLzQnUPLsRXWI5wK-18" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
+        <mxCell id="pcIeQBHsXcDPj8eYiK2b-9" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="xJZYCLzQnUPLsRXWI5wK-3">
+          <mxGeometry x="115" y="75" width="10" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="xJZYCLzQnUPLsRXWI5wK-18" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" parent="1" vertex="1">
           <mxGeometry x="166" y="280" width="20" height="638.7096774193548" as="geometry" />
         </mxCell>
-        <mxCell id="xJZYCLzQnUPLsRXWI5wK-19" value="module&lt;br&gt;VerifyCodeServer" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+        <mxCell id="xJZYCLzQnUPLsRXWI5wK-19" value="module&lt;br&gt;VerifyCodeServer" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="726" y="280" width="200" height="660" as="geometry" />
         </mxCell>
-        <mxCell id="xJZYCLzQnUPLsRXWI5wK-20" value="腾讯云" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+        <mxCell id="pcIeQBHsXcDPj8eYiK2b-15" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="xJZYCLzQnUPLsRXWI5wK-19">
+          <mxGeometry x="95" y="130" width="10" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="pcIeQBHsXcDPj8eYiK2b-25" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="xJZYCLzQnUPLsRXWI5wK-19">
+          <mxGeometry x="96" y="309" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pcIeQBHsXcDPj8eYiK2b-26" value="生成验证码" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="xJZYCLzQnUPLsRXWI5wK-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="101" y="296" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="131" y="326" />
+            </Array>
+            <mxPoint x="106" y="326" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcIeQBHsXcDPj8eYiK2b-28" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="xJZYCLzQnUPLsRXWI5wK-19">
+          <mxGeometry x="96" y="370" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xJZYCLzQnUPLsRXWI5wK-20" value="腾讯云" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="1376" y="290.64516129032256" width="120" height="638.7096774193548" as="geometry" />
         </mxCell>
-        <mxCell id="xJZYCLzQnUPLsRXWI5wK-21" value="module&lt;br&gt;SmsServer" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="1086" y="290.64516129032256" width="120" height="638.7096774193548" as="geometry" />
+        <mxCell id="xJZYCLzQnUPLsRXWI5wK-21" value="module&lt;br&gt;SmsServer" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="1090" y="279.9951612903226" width="120" height="638.7096774193548" as="geometry" />
+        </mxCell>
+        <mxCell id="pcIeQBHsXcDPj8eYiK2b-31" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="xJZYCLzQnUPLsRXWI5wK-21">
+          <mxGeometry x="55" y="430" width="10" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="pcIeQBHsXcDPj8eYiK2b-2" value="Client" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="145" y="240" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pcIeQBHsXcDPj8eYiK2b-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="177" y="360" as="sourcePoint" />
+            <mxPoint x="440" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcIeQBHsXcDPj8eYiK2b-4" value="点击发送验证码" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;rotation=0;" connectable="0" vertex="1" parent="pcIeQBHsXcDPj8eYiK2b-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pcIeQBHsXcDPj8eYiK2b-14" value="设置业务短信业务类型" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="458" y="370" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pcIeQBHsXcDPj8eYiK2b-20" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="xJZYCLzQnUPLsRXWI5wK-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="451" y="410" as="sourcePoint" />
+            <mxPoint x="714" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcIeQBHsXcDPj8eYiK2b-21" value="请求发送验证码" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;rotation=0;" connectable="0" vertex="1" parent="pcIeQBHsXcDPj8eYiK2b-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pcIeQBHsXcDPj8eYiK2b-22" value="设置安全校验&lt;br&gt;1、防抖点击校验，3秒内频繁点击，给出提示信息。点击太快请稍后重试&lt;br&gt;2、验证当前用户是否已经发送过短信&lt;br&gt;3、短信防刷校验，校验的维度有当天用户、手机号、ip、系统发送量限制" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="840" y="420" width="240" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="pcIeQBHsXcDPj8eYiK2b-30" value="生成一条验证码记录并保存，初始状态是INIT等待验证" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="840" y="650" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pcIeQBHsXcDPj8eYiK2b-32" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="xJZYCLzQnUPLsRXWI5wK-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="827" y="710" as="sourcePoint" />
+            <mxPoint x="1104.5" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcIeQBHsXcDPj8eYiK2b-33" value="调用sms" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;rotation=0;" connectable="0" vertex="1" parent="pcIeQBHsXcDPj8eYiK2b-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pcIeQBHsXcDPj8eYiK2b-34" value="保存短信的发送记录" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="680" width="240" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
