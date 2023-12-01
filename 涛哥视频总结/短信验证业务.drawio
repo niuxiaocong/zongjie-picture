@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-01T03:52:07.317Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="OZnfYKFvOT5d1B20h0sH" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-01T03:52:21.880Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="9A00rN4nWXj_Ab5_CJDR" version="22.1.5" type="github">
   <diagram name="第 1 页" id="Ftv0NHJM2Bnbhd5V44T6">
     <mxGraphModel dx="1050" dy="493" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -122,7 +122,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="QVQZq-N4ggE52IEKjC-J-77" value="增加短信验证码通过标记" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="720" y="490" width="130" height="30" as="geometry" />
+          <mxGeometry x="720" y="490" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
