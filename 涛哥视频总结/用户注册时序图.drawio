@@ -1,9 +1,48 @@
-<mxfile host="app.diagrams.net" modified="2023-12-05T15:19:15.675Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="22.1.5" etag="4MIoDxqlP7ISptFV8kYq" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-05T15:41:02.066Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="zIVqRMTbcaC02l-NPdVJ" version="22.1.5" type="github">
   <diagram name="第 1 页" id="KvT4yUcUBOmQiTpN18fJ">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="0FIhDaAq91Jc5L0wHxtP-1" value="api&lt;br&gt;SmsSendRegisterController" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="591" y="40" width="240" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="0FIhDaAq91Jc5L0wHxtP-30" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="0FIhDaAq91Jc5L0wHxtP-1">
+          <mxGeometry x="115" y="80" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0FIhDaAq91Jc5L0wHxtP-9" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
+          <mxGeometry x="376" y="40" width="20" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="0FIhDaAq91Jc5L0wHxtP-28" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="0FIhDaAq91Jc5L0wHxtP-9">
+          <mxGeometry x="5" y="80" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0FIhDaAq91Jc5L0wHxtP-11" value="module&lt;br&gt;VerifyCodeServer" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1730" y="40" width="200" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="0FIhDaAq91Jc5L0wHxtP-13" value="Client" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="354" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0FIhDaAq91Jc5L0wHxtP-26" value="api&lt;br&gt;SmsValidateRegisterController" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="920" y="40" width="240" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="0FIhDaAq91Jc5L0wHxtP-31" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="0FIhDaAq91Jc5L0wHxtP-26">
+          <mxGeometry x="115" y="152" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0FIhDaAq91Jc5L0wHxtP-27" value="api&lt;br&gt;SecurityRegisterController" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1360" y="40" width="240" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="0FIhDaAq91Jc5L0wHxtP-29" value="发送注册业务类型的短信验证码" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" edge="1" parent="1" target="0FIhDaAq91Jc5L0wHxtP-1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="396" y="120" as="sourcePoint" />
+            <mxPoint x="456" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0FIhDaAq91Jc5L0wHxtP-32" value="校验验证码的正确性" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="720" y="200" as="sourcePoint" />
+            <mxPoint x="1035" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
