@@ -1,20 +1,95 @@
-<mxfile host="app.diagrams.net" modified="2023-12-06T14:33:01.494Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="YPHCij09bmOsXAaLudGw" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-06T14:48:20.874Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="3wNw_3YLmaNwZ8GyqfRW" version="22.1.5" type="github">
   <diagram name="第 1 页" id="V2xf_a_1_qo3DFsYtSZZ">
     <mxGraphModel dx="1050" dy="493" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="zO-CzX6baFLixF5saDA8-1" value="api&lt;br&gt;SecurityLoginUsernameController" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="270" y="40" width="217" height="640" as="geometry" />
+          <mxGeometry x="270" y="40" width="217" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="zO-CzX6baFLixF5saDA8-27" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="zO-CzX6baFLixF5saDA8-1">
+          <mxGeometry x="104" y="79" width="10" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="zO-CzX6baFLixF5saDA8-39" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="zO-CzX6baFLixF5saDA8-1">
+          <mxGeometry x="103.5" y="350" width="10" height="120" as="geometry" />
         </mxCell>
         <mxCell id="zO-CzX6baFLixF5saDA8-3" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
-          <mxGeometry x="96" y="40" width="20" height="640" as="geometry" />
+          <mxGeometry x="96" y="40" width="20" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="zO-CzX6baFLixF5saDA8-26" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="zO-CzX6baFLixF5saDA8-3">
+          <mxGeometry x="5" y="79" width="10" height="441" as="geometry" />
         </mxCell>
         <mxCell id="zO-CzX6baFLixF5saDA8-5" value="module&lt;br&gt;UserServer" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="600" y="40" width="129" height="640" as="geometry" />
+          <mxGeometry x="615" y="40" width="129" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="zO-CzX6baFLixF5saDA8-32" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="zO-CzX6baFLixF5saDA8-5">
+          <mxGeometry x="59.5" y="150" width="10" height="210" as="geometry" />
         </mxCell>
         <mxCell id="zO-CzX6baFLixF5saDA8-7" value="Client" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="74" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zO-CzX6baFLixF5saDA8-28" value="输入账号密码开始调用登录请求" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" edge="1" parent="1" target="zO-CzX6baFLixF5saDA8-1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="120" y="120" as="sourcePoint" />
+            <mxPoint x="180" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zO-CzX6baFLixF5saDA8-30" value="安全拦截校验，防止有人恶意撞库" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="130" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zO-CzX6baFLixF5saDA8-31" value="安全校验未通过" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" target="zO-CzX6baFLixF5saDA8-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="170" as="sourcePoint" />
+            <mxPoint x="290" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zO-CzX6baFLixF5saDA8-33" value="安全拦截校验通过，开始调用登录服务" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="387" y="200" as="sourcePoint" />
+            <mxPoint x="676" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zO-CzX6baFLixF5saDA8-34" value="根据用户名查询用户，校验用户是否存在" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="700" y="210" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zO-CzX6baFLixF5saDA8-35" value="用户不存在，返回用户名或者密码错误" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="673" y="249" as="sourcePoint" />
+            <mxPoint x="111" y="249" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zO-CzX6baFLixF5saDA8-36" value="校验密码输入是否正确" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="700" y="260" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zO-CzX6baFLixF5saDA8-37" value="用户不存在，返回用户名或者密码错误" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="672" y="295" as="sourcePoint" />
+            <mxPoint x="110" y="295" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zO-CzX6baFLixF5saDA8-38" value="登录成功，记录最后一次登录时间，返回登录用户的userId" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="700" y="320" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zO-CzX6baFLixF5saDA8-40" value="返回登录的用户信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0035" relative="1" as="geometry">
+            <mxPoint x="671" y="390" as="sourcePoint" />
+            <mxPoint x="386" y="392" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zO-CzX6baFLixF5saDA8-41" value="根据登录的用户id，生成用户的Token信息，设置用户的过期时间" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="410" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zO-CzX6baFLixF5saDA8-42" value="将登录以后的用户的Token信息set到cookie中" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="450" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zO-CzX6baFLixF5saDA8-43" value="返回登录用户的Token信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0038" relative="1" as="geometry">
+            <mxPoint x="370" y="509" as="sourcePoint" />
+            <mxPoint x="110" y="509" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
